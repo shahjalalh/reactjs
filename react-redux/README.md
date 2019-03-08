@@ -13,3 +13,4 @@ In some rare case if normal life cycle methods can not help -
 * [jsx](https://github.com/shahjalalh/reactjs/tree/master/react-redux/jsx)
 * [components](https://github.com/shahjalalh/reactjs/tree/master/react-redux/components)
 * [seasons](https://github.com/shahjalalh/reactjs/tree/master/react-redux/seasons)
+* [pics](https://github.com/shahjalalh/reactjs/tree/master/react-redux/pics)
