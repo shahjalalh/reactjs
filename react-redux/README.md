@@ -2,22 +2,22 @@
 
 ## React Lifecycle Methods
 
-### Life cycle methods --- * ---
+### Life cycle methods :
 <img src="./images/diagrams-react-life-cycle.png" />
 
-### Rarely used lifecycle methods --- * ---
+### Rarely used lifecycle methods:
 In some rare case if normal life cycle methods can not help -
 <img src="./images/diagrams-react-life-cycle-rarely-used.png" />
 
 ## Redux Cycle
 
-### redux cycle --- * ---
+### redux cycle:
 <img src="./images/diagrams-redux-cycle.png" />
 
-### redux cycle in insurance  company (example) --- * ---
+### redux cycle in insurance  company (example):
 <img src="./images/diagrams-redux-cycle-insurance-company.png" />
 
-### redux cycle circle --- * ---
+### redux cycle circle:
 <img src="./images/diagrams-redux-cycle-circle.png" />
 
 
