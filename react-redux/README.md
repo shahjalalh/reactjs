@@ -20,6 +20,13 @@ In some rare case if normal life cycle methods can not help -
 ### redux cycle circle:
 <img src="./images/diagrams-redux-cycle-circle.png" />
 
+```
+$ create-react-app songs
+$ cd songs
+$ yarn start
+$ yarn add redux react-redux
+$ 
+```
 
 ## Projects:
 * [jsx](https://github.com/shahjalalh/reactjs/tree/master/react-redux/jsx)
