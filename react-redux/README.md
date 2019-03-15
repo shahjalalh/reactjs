@@ -27,4 +27,5 @@ In some rare case if normal life cycle methods can not help -
 * [seasons](https://github.com/shahjalalh/reactjs/tree/master/react-redux/seasons)
 * [pics](https://github.com/shahjalalh/reactjs/tree/master/react-redux/pics)
 * 11 - pending
-* []
+* [songs](https://github.com/shahjalalh/reactjs/tree/master/react-redux/songs)
+
