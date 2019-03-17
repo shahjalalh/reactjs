@@ -33,8 +33,11 @@ $
 ```
 
 ### react supporting modules
-
 <img src="./images/diagrams-redux-react-redux-axios-redux-thunk.png" />
+
+### General data loading with redux
+<img src="./images/diagrams-general-data-loading-with-redux.png" />
+
 
 ## Projects:
 * [jsx](https://github.com/shahjalalh/reactjs/tree/master/react-redux/jsx)
