@@ -9,7 +9,11 @@
 In some rare case if normal life cycle methods can not help -
 <img src="./images/diagrams-react-life-cycle-rarely-used.png" />
 
-## Redux Cycle
+## Redux
+
+### Redux difficulty curve
+<img src="./images/diagrams-redux-difficulty-curve.png" />
+
 
 ### redux cycle:
 <img src="./images/diagrams-redux-cycle.png" />
@@ -24,9 +28,13 @@ In some rare case if normal life cycle methods can not help -
 $ create-react-app songs
 $ cd songs
 $ yarn start
-$ yarn add redux react-redux
+$ yarn add redux react-redux axios redux-thunk
 $ 
 ```
+
+### react supporting modules
+
+<img src="./images/diagrams-redux-react-redux-axios-redux-thunk.png" />
 
 ## Projects:
 * [jsx](https://github.com/shahjalalh/reactjs/tree/master/react-redux/jsx)
