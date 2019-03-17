@@ -35,4 +35,4 @@ $
 * [pics](https://github.com/shahjalalh/reactjs/tree/master/react-redux/pics)
 * 11 - pending
 * [songs](https://github.com/shahjalalh/reactjs/tree/master/react-redux/songs)
-
+* [blog](https://github.com/shahjalalh/reactjs/tree/master/react-redux/blog)
