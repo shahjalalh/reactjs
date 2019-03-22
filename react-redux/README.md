@@ -38,6 +38,11 @@ $
 ### General data loading with redux
 <img src="./images/diagrams-general-data-loading-with-redux.png" />
 
+### Rules of reducers
+<img src="./images/diagrams-rules-of-reducers.png" />
+
+### Mutations bad and good
+<img src="./images/diagrams-mutations-bad-goods.png" />
 
 ## Projects:
 * [jsx](https://github.com/shahjalalh/reactjs/tree/master/react-redux/jsx)
