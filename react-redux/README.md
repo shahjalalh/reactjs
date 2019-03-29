@@ -28,7 +28,7 @@ In some rare case if normal life cycle methods can not help -
 $ create-react-app songs
 $ cd songs
 $ yarn start
-$ yarn add redux react-redux axios redux-thunk
+$ yarn add lodash redux react-redux axios redux-thunk react-router-dom
 $ 
 ```
 
