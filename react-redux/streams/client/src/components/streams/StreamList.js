@@ -1,11 +1,11 @@
 import React from 'react';
 
-const StreamEdit = () => {
+const StreamList = () => {
     return (
         <div>
-            StreamEdit
+            StreamList
         </div>
     );
 }
 
-export default StreamEdit;
+export default StreamList;
