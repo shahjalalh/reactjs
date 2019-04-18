@@ -50,6 +50,27 @@ https://developers.google.com/api-client-library/javascript/reference/referenced
 
 check the function like: signin(), issignedin() signout etc.
 
-17:8
+update GoogleAuth.js
+
+```
+$ npm install --save redux react-redux
+```
+
+create src/actions folder
+
+```
+index.js
+
+```
+
+create src/reducers folder
+
+```
+index.js
+```
+
+
+
+17:11
 
 
