@@ -69,6 +69,19 @@ create src/reducers folder
 index.js
 ```
 
+update src/index.js
+
+in reducers folder create
+
+```
+reducers/authReducers.js
+```
+
+create and update file in
+
+```
+actions/types.js
+```
 
 
-17:11
+17: class done & practical not done yet
