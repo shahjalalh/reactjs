@@ -28,7 +28,7 @@ Create credentials > oauth client id >
 
 Application type: web application
 
-Authorized javascript plugin: http://localhost:3000
+Authorized javascript origins: http://localhost:3000
 
 click "create"
 
