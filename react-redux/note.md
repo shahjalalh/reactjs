@@ -88,4 +88,6 @@ actions/types.js
 
 ## 18: Redux Dev Tools <-------------------
 
+https://github.com/zalmoxisus/redux-devtools-extension
+
 
