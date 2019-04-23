@@ -40,7 +40,7 @@ in public/index.html add a "script" tag and add the url
 
 check in console "gapi" is loaded in console 
 
-create a new file in components/GoogleAuth.js  <------------------------------------
+create a new file in components/GoogleAuth.js  
 
 add googleauth in header.js
 
@@ -56,7 +56,7 @@ update GoogleAuth.js
 $ npm install --save redux react-redux
 ```
 
-create src/actions folder
+create src/actions folder <------------------------------------
 
 ```
 index.js
