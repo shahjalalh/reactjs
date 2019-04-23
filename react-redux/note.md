@@ -56,7 +56,7 @@ update GoogleAuth.js
 $ npm install --save redux react-redux
 ```
 
-create src/actions folder <------------------------------------
+create src/actions folder 
 
 ```
 index.js
@@ -69,7 +69,7 @@ create src/reducers folder
 index.js
 ```
 
-update src/index.js
+update src/index.js <------------------------------------
 
 in reducers folder create
 
