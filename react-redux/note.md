@@ -69,7 +69,7 @@ create src/reducers folder
 index.js
 ```
 
-update src/index.js <------------------------------------
+update src/index.js 
 
 in reducers folder create
 
@@ -84,4 +84,8 @@ actions/types.js
 ```
 
 
-17: class done & practical not done yet
+17: class done & practical not done yet 
+
+## 18: Redux Dev Tools <-------------------
+
+
