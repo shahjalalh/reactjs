@@ -86,8 +86,30 @@ actions/types.js
 
 17: class done & practical not done yet 
 
-## 18: Redux Dev Tools <-------------------
+## 18: Redux Dev Tools 
 
 https://github.com/zalmoxisus/redux-devtools-extension
 
+update src/index.js with 1.2 Advanced store setup
+
+browse https://www.airbnb.com/ and open redux-devtools-extension and check
+
+- state
+- action
+
+jump - uses to jump to the particular state
+
+Debug sessions with redux dev tools:
+
+Saves all data in Redux Store between refreshes of the page
+```
+localhost:3000?debug_session=<some_string>
+```
+like **localhost:3000?debug_session=logged_id** or **localhost:3000?debug_session=logged_out**
+
+after work done don't forget to delete **?debug_session=logged_id**
+
+## 19: Handling Forms with Redux Form
+
+19:01 <-------------------
 
