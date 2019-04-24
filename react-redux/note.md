@@ -105,9 +105,9 @@ Saves all data in Redux Store between refreshes of the page
 ```
 localhost:3000?debug_session=<some_string>
 ```
-like **localhost:3000?debug_session=logged_id** or **localhost:3000?debug_session=logged_out**
+like **localhost:3000?debug_session=logged_in** or **localhost:3000?debug_session=logged_out**
 
-after work done don't forget to delete **?debug_session=logged_id**
+after work done don't forget to delete **?debug_session=logged_in**
 
 ## 19: Handling Forms with Redux Form
 
