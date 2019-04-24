@@ -111,5 +111,32 @@ after work done don't forget to delete **?debug_session=logged_id**
 
 ## 19: Handling Forms with Redux Form
 
-19:01 <-------------------
+install redux-form
+```
+$ npm install --save redux-form
+```
+
+https://redux-form.com/
+
+go to example section for reference
+
+https://redux-form.com/8.2.0/examples/
+
+check different examples like - 
+
+- wizard form
+- synchronous validation example
+
+
+update reducers/index.js
+
+open **Redux DevTools** and go to localhost:3000/streams/new
+
+in **Redux DevTools** have **form** object in **state**
+
+Now, update components/streams/StreamCreate.js
+
+after give input in the form check the console and DevTools (State>Tree)
+
+19:09 <-------------------
 
