@@ -84,7 +84,7 @@ actions/types.js
 ```
 
 
-17: class done & practical not done yet 
+17: class done & practical done 
 
 ## 18: Redux Dev Tools 
 
@@ -138,5 +138,7 @@ Now, update components/streams/StreamCreate.js
 
 after give input in the form check the console and DevTools (State>Tree)
 
-19:09 <-------------------
+onSubmit contains only console.log()
+
+19:11 class done & practical not done yet 
 
