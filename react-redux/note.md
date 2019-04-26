@@ -146,5 +146,5 @@ after give input in the form check the console and DevTools (State>Tree)
 
 onSubmit contains only console.log()
 
-19:11 class done & practical not done yet 
+19:11 class done & practical done 
 
