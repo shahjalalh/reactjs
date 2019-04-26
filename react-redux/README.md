@@ -28,7 +28,7 @@ In some rare case if normal life cycle methods can not help -
 $ create-react-app songs
 $ cd songs
 $ yarn start
-$ yarn add lodash redux react-redux axios redux-thunk react-router-dom
+$ yarn add lodash redux react-redux axios redux-thunk react-router-dom redux-form
 $ 
 ```
 
@@ -43,6 +43,9 @@ $
 
 ### Mutations bad and good
 <img src="./images/diagrams-mutations-bad-goods.png" />
+
+### REST convention
+<img src="./images/diagrams-rest-convention.png">
 
 ## Projects:
 * [jsx](https://github.com/shahjalalh/reactjs/tree/master/react-redux/jsx)

@@ -170,17 +170,32 @@ $ npm install --save json-server
 Create a db.json file with some data
 ```
 {
-  "streams": [
-    { "id": 1, "title": "json-server", "author": "typicode" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 }
-  ],
-  "profile": { "name": "typicode" }
+  "streams": []
 }
 ```
 
 update api/package.json and add "start" in scripts
 
+```
+$ npm install --save axios redux-thunk
+```
 
-20: 4
+create new folder and file apis/streams.js
+
+update apis/streams.js
+
+update actions/index.js
+
+update components/streams/StreamCreate.js
+
+update src/index.js
+
+Now submit form and check Console>Network>XHR
+
+Now check api/db.json if it is updating.
+
+update actions/types.js
+
+
+
+20: 7
