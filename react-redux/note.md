@@ -196,6 +196,17 @@ Now check api/db.json if it is updating.
 
 update actions/types.js
 
+create reducers/streamReducer.js and update
+
+```
+$ npm install --save lodash
+```
+
+update components/streams/StreamList.js
+
+now go to localhost:3000 and check in DevTools>state how many streams are created
 
 
-20: 7
+
+
+20: 15
