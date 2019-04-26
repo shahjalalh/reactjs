@@ -150,6 +150,37 @@ onSubmit contains only console.log()
 
 ## 20 REST-Based React Apps
 
+https://www.npmjs.com/package/json-server
+
+```
+$ cd streams/
+$ ls
+client
+$ mkdir api
+$ ls
+client api
+$ cd api
+$ npm init
+$ ls
+package.json
+$ npm install --save json-server
+
+```
+
+Create a db.json file with some data
+```
+{
+  "streams": [
+    { "id": 1, "title": "json-server", "author": "typicode" }
+  ],
+  "comments": [
+    { "id": 1, "body": "some comment", "postId": 1 }
+  ],
+  "profile": { "name": "typicode" }
+}
+```
+
+update api/package.json and add "start" in scripts
 
 
-20: 1
+20: 4
