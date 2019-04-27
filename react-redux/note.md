@@ -206,7 +206,9 @@ update components/streams/StreamList.js
 
 now go to localhost:3000 and check in DevTools>state how many streams are created
 
+create and update /src/history.js
+
+update /src/components/App.js
 
 
-
-20: 15
+20: 25
