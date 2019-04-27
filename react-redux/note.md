@@ -210,5 +210,7 @@ create and update /src/history.js
 
 update /src/components/App.js
 
+update /components/streams/StreamEdit.js
 
-20: 25
+
+20: 27 
