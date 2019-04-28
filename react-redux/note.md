@@ -214,4 +214,4 @@ update /components/streams/StreamEdit.js
 
 update /components/streams/StreamForm.js
 
-20: 32
+20 class done & practical not done 
