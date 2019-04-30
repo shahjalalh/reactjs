@@ -176,7 +176,13 @@ Create a db.json file with some data
 
 update api/package.json and add "start" in scripts <-----------------------
 
+start the yarn server
 ```
+$ yarn start
+```
+
+```
+$ cd /streams/client/
 $ npm install --save axios redux-thunk
 ```
 
