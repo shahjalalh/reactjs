@@ -188,7 +188,7 @@ $ npm install --save axios redux-thunk
 
 create new folder and file src/apis/streams.js 
 
-update apis/streams.js <-----------------------
+update apis/streams.js
 
 update actions/index.js
 
@@ -202,17 +202,17 @@ Now check api/db.json if it is updating.
 
 update actions/types.js
 
-create reducers/streamReducer.js and update
-
 ```
 $ npm install --save lodash
 ```
+
+create reducers/streamReducer.js and update
 
 update components/streams/StreamList.js
 
 now go to localhost:3000 and check in DevTools>state how many streams are created
 
-create and update /src/history.js
+create and update /src/history.js <-----------------------
 
 update /src/components/App.js
 
