@@ -212,12 +212,12 @@ update components/streams/StreamList.js
 
 now go to localhost:3000 and check in DevTools>state how many streams are created
 
-create and update /src/history.js <-----------------------
+create and update /src/history.js 
 
-update /src/components/App.js
+update /src/components/App.js 
 
-update /components/streams/StreamEdit.js
+update /components/streams/StreamEdit.js 
 
-update /components/streams/StreamForm.js
+update /components/streams/StreamForm.js <-----------------------
 
 20 class done & practical not done 
