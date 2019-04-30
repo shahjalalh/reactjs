@@ -174,7 +174,7 @@ Create a db.json file with some data
 }
 ```
 
-update api/package.json and add "start" in scripts <-----------------------
+update api/package.json and add "start" in scripts 
 
 start the yarn server
 ```
@@ -186,9 +186,9 @@ $ cd /streams/client/
 $ npm install --save axios redux-thunk
 ```
 
-create new folder and file apis/streams.js
+create new folder and file src/apis/streams.js 
 
-update apis/streams.js
+update apis/streams.js <-----------------------
 
 update actions/index.js
 
