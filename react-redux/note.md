@@ -174,7 +174,7 @@ Create a db.json file with some data
 }
 ```
 
-update api/package.json and add "start" in scripts
+update api/package.json and add "start" in scripts <-----------------------
 
 ```
 $ npm install --save axios redux-thunk
