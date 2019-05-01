@@ -1,11 +1,11 @@
-## 12. On We Go...To Redux!
+## 12: On We Go...To Redux!
 12:2 (off time off)
 
 -----------------------------------------------------------
 -----------------------------------------------------------
 -----------------------------------------------------------
 
-## 17. Handling Authentication with React
+## 17: Handling Authentication with React
 
 search: google oauth scope list
 
@@ -148,7 +148,7 @@ onSubmit contains only console.log()
 
 19 class done & practical done 
 
-## 20 REST-Based React Apps
+## 20: REST-Based React Apps
 
 https://www.npmjs.com/package/json-server
 
@@ -222,7 +222,7 @@ update /components/streams/StreamForm.js
 
 20 class done & practical done 
 
-## 21 Using React Portals
+## 21: Using React Portals
 
 create new file in /components/Modal.js
 
@@ -233,3 +233,7 @@ update /components/streams/StreamDelete.js
 update /src/actions/index.js
 
 21 class done & practical not done 
+
+## 22: Implementing Streaming Video 
+
+22: 01
