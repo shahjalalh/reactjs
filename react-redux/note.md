@@ -223,3 +223,13 @@ update /components/streams/StreamForm.js
 20 class done & practical not done 
 
 ## 21 Using React Portals
+
+create new file in /components/Modal.js
+
+update Modal.js
+
+update /components/streams/StreamDelete.js
+
+
+
+21: 05
