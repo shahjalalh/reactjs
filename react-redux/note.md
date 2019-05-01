@@ -220,7 +220,7 @@ update /components/streams/StreamEdit.js
 
 update /components/streams/StreamForm.js 
 
-20 class done & practical not done 
+20 class done & practical done 
 
 ## 21 Using React Portals
 
@@ -230,6 +230,6 @@ update Modal.js
 
 update /components/streams/StreamDelete.js
 
+update /src/actions/index.js
 
-
-21: 05
+21 class done & practical not done 
