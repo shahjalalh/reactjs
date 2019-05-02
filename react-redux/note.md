@@ -240,6 +240,61 @@ update components/App.js
 
 update components/streams/StreamList.js
 
+update components/streams/StreamShow.js
+
+```
+$ cd ../streams
+$ ls
+api client
+$ mkdir rtmpserver
+$ cd rtmpserver
+$ npm init
+$ 
+```
+go to https://github.com/illuspas/Node-Media-Server # npm version (recommended)
+
+```
+$ npm install --save node-media-server 
+```
+
+create /rtmpserver/index.js 
+
+copy example code in "npm version (recommended)" and update index.js
+
+update /rtmpserver/package.json
+
+To run the server
+```
+$ npm start
+```
+
+Open Broadcaster Software: https://obsproject.com/
+
+Download "Open Broadcaster Software", install and run
+
+Now create a scene in "Scenes" bottom left by clicking (+) and give the name.
+
+Name: Streaming Scene
+
+Now create source in "Sources" next to "Scenes" by clicking (+) and select "Display Capture"
+
+"Create New" selected "Display capture 2"
+
+"Display:" - is the monitor
+
+"Crop: None"  
+
+Adjust the screen into the red border.
+
+Now create new source in "Sources" by clicking (+) and select "Audio Input Capture"
+
+"Create New" selected "Audio Input Capture 3" and "Make source visible" is checked.
+
+"Device" - select from dropdown the microphone and click OK.
+
+"Start Recording" in the right side of the window, will start recording and "Stop Recording" will save a file in local machine.
+
+The saved media file locations click "Settings > Output > Output Mode: Simple" check "Recording Path: "
 
 
-22: 03
+22: 07
