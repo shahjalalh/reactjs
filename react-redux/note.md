@@ -251,7 +251,7 @@ $ cd rtmpserver
 $ npm init
 $ 
 ```
-go to https://github.com/illuspas/Node-Media-Server # npm version (recommended)
+go to https://github.com/illuspas/Node-Media-Server -> npm version (recommended)
 
 ```
 $ npm install --save node-media-server 
@@ -296,5 +296,17 @@ Now create new source in "Sources" by clicking (+) and select "Audio Input Captu
 
 The saved media file locations click "Settings > Output > Output Mode: Simple" check "Recording Path: "
 
+Now go to https://github.com/illuspas/Node-Media-Server -> "Accessing the live stream"
 
-22: 07
+"http-flv" is a good choice "via flv.js over http-flv" contains the sample code
+
+Now go to https://www.npmjs.com/package/flv.js and install
+
+```
+$ npm install --save flv.js
+```
+
+update /streams/StreamShow.js
+
+
+22: 09
