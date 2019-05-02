@@ -236,4 +236,10 @@ update /src/actions/index.js
 
 ## 22: Implementing Streaming Video 
 
-22: 01
+update components/App.js
+
+update components/streams/StreamList.js
+
+
+
+22: 03
