@@ -308,5 +308,21 @@ $ npm install --save flv.js
 
 update /streams/StreamShow.js
 
+Node-Media-Server configure # From OBS
 
-22: 09
+In OBS "Settings>Stream(left menu)" select -
+
+```
+Stream Type: Custom Streaming Server
+URL : rtmp://localhost/live
+Stream key : 1
+```
+Stream key 1 is the id of stream. Now click OK.
+
+Click "Start Streaming" and go to the browser (refresh, if not come) and play.
+
+It may have some time-lack in streaming(10-15 sec).
+
+When done click "Stop Streaming" 
+
+22 class done & practical not done 
