@@ -232,7 +232,7 @@ update /components/streams/StreamDelete.js
 
 update /src/actions/index.js
 
-21 class done & practical done <-------
+21 class done & practical done 
 
 ## 22: Implementing Streaming Video 
 
