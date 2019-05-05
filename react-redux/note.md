@@ -325,4 +325,5 @@ It may have some time-lack in streaming(10-15 sec).
 
 When done click "Stop Streaming" 
 
-22 class done & practical not done 
+22 class done & practical done 
+
