@@ -329,4 +329,32 @@ When done click "Stop Streaming"
 
 ## 23 The Context System with React
 
-23: 01
+create a new project in the workspace
+
+```
+$ create-react-app translate
+$ cd translate
+$ yarn start
+```
+
+delete everything inside /src and create index.js
+
+update /src/index.js
+
+create and update /src/components/App.js 
+
+google search "semantic ui cdn" and go to cdn
+
+"Ctrl+F" - in the page "semantic.min" copy the ".css" link and update in /public/index.html
+
+create and update /src/components/UserCreate.js
+
+create and update /src/components/Field.js
+
+create and update /src/components/Button.js
+
+create and update /src/contexts/LanguageContext.js
+
+put console.log inside Button.js -> render() method to see how context effects.
+
+23: 08
