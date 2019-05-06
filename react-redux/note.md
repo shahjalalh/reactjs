@@ -337,7 +337,7 @@ $ cd translate
 $ yarn start
 ```
 
-delete everything inside /src and create index.js
+delete everything inside /src and create index.js <-----
 
 update /src/index.js
 
