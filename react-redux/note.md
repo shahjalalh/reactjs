@@ -357,4 +357,6 @@ create and update /src/contexts/LanguageContext.js
 
 put console.log inside Button.js -> render() method to see how context effects.
 
-23: 08
+create and update /contexts/ColorContext.js
+
+23 class done & practical not done 
