@@ -327,7 +327,7 @@ When done click "Stop Streaming"
 
 22 class done & practical done 
 
-## 23 The Context System with React
+## 23: The Context System with React
 
 create a new project in the workspace
 
@@ -337,7 +337,7 @@ $ cd translate
 $ yarn start
 ```
 
-delete everything inside /src and create index.js <-----
+delete everything inside /src and create index.js
 
 update /src/index.js
 
@@ -360,3 +360,7 @@ put console.log inside Button.js -> render() method to see how context effects.
 create and update /contexts/ColorContext.js
 
 23 class done & practical not done 
+
+## 24: Replacing Redux with Context
+
+24: 01
