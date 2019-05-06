@@ -363,4 +363,7 @@ create and update /contexts/ColorContext.js
 
 ## 24: Replacing Redux with Context
 
-24: 02
+update /contexts/LanguageContext.js
+
+
+24: 04
