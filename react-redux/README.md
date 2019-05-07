@@ -47,6 +47,12 @@ $
 ### REST convention
 <img src="./images/diagrams-rest-convention.png">
 
+### Class Based Components Vs. Function Based Components
+<img src="./images/diagrams-class-vs-function-components.png">
+
+### React Hook System
+<img src="./images/diagrams-hook-system.png">
+
 ## Projects:
 * [jsx](https://github.com/shahjalalh/reactjs/tree/master/react-redux/jsx)
 * [components](https://github.com/shahjalalh/reactjs/tree/master/react-redux/components)
