@@ -372,4 +372,27 @@ update /components/LanguageSelector.js
 
 ## 25: Hooks with Functional Components
 
-25: 01
+```
+$ create-react-app hooks-simple
+$ cd hooks-simple
+```
+
+delete everything from /src/ directory
+
+create /src/index.js
+
+update index.js
+
+create /src/components/App.js   
+
+Run the app with simple app -
+```
+$ yarn start
+```
+
+update /src/components/App.js  
+
+create and update /src/components/ResourceList.js
+
+
+25: 10

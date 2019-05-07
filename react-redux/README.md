@@ -53,6 +53,10 @@ $
 ### React Hook System
 <img src="./images/diagrams-hook-system.png">
 
+### React Hook Functions
+<img src="./images/diagrams-hooks-functions.png">
+
+
 ## Projects:
 * [jsx](https://github.com/shahjalalh/reactjs/tree/master/react-redux/jsx)
 * [components](https://github.com/shahjalalh/reactjs/tree/master/react-redux/components)
@@ -62,4 +66,6 @@ $
 * [songs](https://github.com/shahjalalh/reactjs/tree/master/react-redux/songs)
 * [blog](https://github.com/shahjalalh/reactjs/tree/master/react-redux/blog)
 * [streams](https://github.com/shahjalalh/reactjs/tree/master/react-redux/streams)
+* translate
+* hooks-simple
 
