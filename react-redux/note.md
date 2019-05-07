@@ -370,4 +370,6 @@ update /components/LanguageSelector.js
 
 24 class done & practical done 
 
+## 25: Hooks with Functional Components
 
+25: 01
