@@ -359,11 +359,15 @@ put console.log inside Button.js -> render() method to see how context effects.
 
 create and update /contexts/ColorContext.js
 
-23 class done & practical not done 
+23 class done & practical done 
 
 ## 24: Replacing Redux with Context
 
 update /contexts/LanguageContext.js
 
+update /components/App.js
+update /components/LanguageSelector.js
 
-24: 04
+24 class done & practical done 
+
+
