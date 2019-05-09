@@ -398,8 +398,8 @@ create and update /src/components/useResources.js
 
 create and update /src/components/UserList.js
 
-25 class done & practical not done 
+25 class done & practical done 
 
 ## 26: More Fun with Hooks
 
-26: 05
+26 class done & practical done 
