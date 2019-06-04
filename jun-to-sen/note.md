@@ -124,3 +124,8 @@ $ ssh -tt pi@10.2.1.12 ssh -tt pi@10.2.1.13 .......
 - https://github.com/antonykidis/Setup-ssh-for-github/blob/master/Setup-ssh-on-github.pdf
  
 02: class done and practical done
+
+## 03: Performance Part 1
+
+03: 01
+
