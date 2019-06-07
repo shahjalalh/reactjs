@@ -127,5 +127,15 @@ $ ssh -tt pi@10.2.1.12 ssh -tt pi@10.2.1.13 .......
 
 ## 03: Performance Part 1
 
-03: 01
+Step - 1
+- Minimize Text (use UglifyJS - https://github.com/mishoo/UglifyJS2)
+- Minimize Images ()
+
+**JPG:** big pictures or images with many colors
+**PNG:** logos with less colors
+**GIF:** support transparency
+**SVG:** vector graphics with few colors
+
+
+03: 06
 
