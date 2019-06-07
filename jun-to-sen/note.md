@@ -127,6 +127,14 @@ $ ssh -tt pi@10.2.1.12 ssh -tt pi@10.2.1.13 .......
 
 ## 03: Performance Part 1
 
+### Keys to performance
+
+1. **Frontend:** critical render path, optimized code, progressive web app
+2. **In the wire:** minimize files, minimize delivery
+3. **Backend:** CDNs, caching, load balancing, DB Scaling, GZIP 
+
+<img src="./images/1-performance-optimization.png">
+
 Step - 1
 - Minimize Text (use UglifyJS - https://github.com/mishoo/UglifyJS2)
 - Minimize Images ()
@@ -136,6 +144,27 @@ Step - 1
 **GIF:** support transparency
 **SVG:** vector graphics with few colors
 
+### Minimize Images
+- Transparency: use a PNG
+- Animations: use GIF
+- Colourful images: use a JPG
+- Simple icons, logos, and illustrations: use SVGs
+- Reduce PNG with TinyPNG (or, Gimp)
+- Reduce JPEG with JPEG-Optimizer (or, Gimp)
+- Try to choose simple illustrations over highly detailed photographs
+- Always lower JPEG image quality (30-60%)
+- Resize image based on size it will be displayed
+- Display different sized images for different backgrounds. (use media query)
+- Use CDNs like imgix
+- Remove image metadata
 
-03: 06
+### Resource: image file types
+https://99designs.com/blog/tips/image-file-types/
+
+https://pageweight.imgix.com/
+
+https://www.sitepoint.com/gif-png-jpg-which-one-to-use/
+
+
+03: 08
 
