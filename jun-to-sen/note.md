@@ -158,6 +158,10 @@ Step - 1
 - Use CDNs like imgix
 - Remove image metadata (http://www.verexif.com/en/ or, Gimp)
 
+> To check the fastness of the site with Chrome Dev Tools > Network > Disable cache (check mark), Throttling (drop down),  <img src="./images/2-web-loading-test-in-slow-net.jpg"/>
+
+
+
 ### Resource: image file types
 https://99designs.com/blog/tips/image-file-types/
 
@@ -169,7 +173,9 @@ http://www.bsidestudios.com/blog/media-queries-common-sizes-cheat-sheet
 
 https://css-tricks.com/snippets/css/media-queries-for-standard-devices/
 
+https://stackoverflow.com/questions/985431/max-parallel-http-connections-in-a-browser
 
 
-03: 11
+
+03: 13
 
