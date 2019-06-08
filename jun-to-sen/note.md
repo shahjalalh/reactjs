@@ -156,7 +156,7 @@ Step - 1
 - Resize image based on size it will be displayed
 - Display different sized images for different backgrounds. (use media query)
 - Use CDNs like imgix
-- Remove image metadata
+- Remove image metadata (http://www.verexif.com/en/ or, Gimp)
 
 ### Resource: image file types
 https://99designs.com/blog/tips/image-file-types/
@@ -165,6 +165,11 @@ https://pageweight.imgix.com/
 
 https://www.sitepoint.com/gif-png-jpg-which-one-to-use/
 
+http://www.bsidestudios.com/blog/media-queries-common-sizes-cheat-sheet
 
-03: 08
+https://css-tricks.com/snippets/css/media-queries-for-standard-devices/
+
+
+
+03: 11
 
