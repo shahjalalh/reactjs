@@ -2,13 +2,11 @@
 
 ## 01: Introduction 
 
-https://aneagoie.github.io/keiko-corp/
-
-https://github.com/aneagoie/python-cheatsheet
-
-https://github.com/aneagoie/smart-brain
-
-https://github.com/aneagoie/robofriends
+- https://aneagoie.github.io/keiko-corp
+- https://github.com/aneagoie/keiko-corp
+- https://github.com/aneagoie/python-cheatsheet
+- https://github.com/aneagoie/smart-brain
+- https://github.com/aneagoie/robofriends
 
 ## 02: SSH
 
@@ -204,7 +202,6 @@ Step - 1
 - https://css-tricks.com/snippets/css/media-queries-for-standard-devices/
 - https://stackoverflow.com/questions/985431/max-parallel-http-connections-in-a-browser
 - https://developers.google.com/web/fundamentals/performance/optimizing-content-efficiency/loading-third-party-javascript/
-- https://github.com/aneagoie/keiko-corp
 - https://developers.google.com/web/tools/lighthouse/
 - 
 
