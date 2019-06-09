@@ -160,22 +160,55 @@ Step - 1
 
 > To check the fastness of the site with Chrome Dev Tools > Network > Disable cache (check mark), Throttling (drop down),  <img src="./images/2-web-loading-test-in-slow-net.jpg"/>
 
+### Network Optimizations
+1. Minimize all text
+2. Minimize images with Gimp
+3. Media Queries
+4. Minimize number of files (css, js etc.)
+
+### Rule of thumbs
+#### HTML
+1. Load ```<style>``` in ```<head>```
+2. Load ```<script>``` right before ```</body>```
+#### CSS
+3. Load only what is needed
+4. Above the fold loading
+5. Media attributes (media query)
+6. Less specificity
+#### JS
+7. Load scripts asynchronously (if core functionality requires JS, use ```<script async>```. Third party scripts)
+8. Defer loading of scripts (if core functionality does not requires JS, use ```<script defer>```. Third party scripts)
+9. Minimize DOM manipulation
+10. Avoid long running Javascript
+
+<img src="./images/3-loading-third-party-javascript.png">
+
+### Test a website's performance
+- [PageSpeed Insights](https://developers.google.com/speed/pagespeed/insights/)
+- [Test a website's performance](https://www.webpagetest.org/)
+- [Pingdom Website Speed Test](https://tools.pingdom.com/)
+- [Mobile Site Test](https://www.thinkwithgoogle.com/feature/testmysite)
+- [See How Images Affect Your Page Speed](https://pageweight.imgix.com/)
+- [Security. Performance. Compatibility. SEO](https://passmarked.com/)
 
 
-### Resource: image file types
-https://99designs.com/blog/tips/image-file-types/
-
-https://pageweight.imgix.com/
-
-https://www.sitepoint.com/gif-png-jpg-which-one-to-use/
-
-http://www.bsidestudios.com/blog/media-queries-common-sizes-cheat-sheet
-
-https://css-tricks.com/snippets/css/media-queries-for-standard-devices/
-
-https://stackoverflow.com/questions/985431/max-parallel-http-connections-in-a-browser
+### Exercise: Dev Tools: 
+<li><a href="https://developers.google.com/web/tools/chrome-devtools/evaluate-performance/reference#activities" rel="nofollow">View main thread activities in a table</a> to sort activities based on which ones took up the most time.</li><li><a href="https://developers.google.com/web/tools/chrome-devtools/evaluate-performance/reference#fps" rel="nofollow">Analyze frames per second (FPS)</a> to measure whether your animations truly run smoothly.</li><li><a href="https://developers.google.com/web/updates/2017/11/devtools-release-notes#perf-monitor" rel="nofollow">Monitor CPU usage, JS heap size, DOM nodes, layouts per second, and more</a> in real-time with the Performance Monitor.</li><li><a href="https://developers.google.com/web/tools/chrome-devtools/evaluate-performance/reference#screenshots" rel="nofollow">Capture screenshots while recording</a> to play back exactly how the page looked while the page loaded, or an animation fired, and so on.</li><li><a href="https://developers.google.com/web/tools/chrome-devtools/evaluate-performance/reference#interactions" rel="nofollow">View interactions</a> to quickly identify what happened on a page after a user interacted with it.</li><li><a href="https://developers.google.com/web/tools/chrome-devtools/evaluate-performance/reference#scrolling-performance-issues" rel="nofollow">Find scroll performance issues in real-time</a> by highlighting the page whenever a potentially problematic listener fires.</li><li><a href="https://developers.google.com/web/tools/chrome-devtools/evaluate-performance/reference#paint-flashing" rel="nofollow">View paint events in real-time</a> to identify costly paint events that may be harming the performance of your animations.<br><br><a href="https://developers.google.com/web/tools/chrome-devtools/evaluate-performance/reference#main" rel="nofollow">View main thread activity</a> to view every event that occurred on the main thread while you were recording.</li>
 
 
+### Resource:
+- https://99designs.com/blog/tips/image-file-types/
+- https://pageweight.imgix.com/
+- https://www.sitepoint.com/gif-png-jpg-which-one-to-use/
+- http://www.bsidestudios.com/blog/media-queries-common-sizes-cheat-sheet
+- https://css-tricks.com/snippets/css/media-queries-for-standard-devices/
+- https://stackoverflow.com/questions/985431/max-parallel-http-connections-in-a-browser
+- https://developers.google.com/web/fundamentals/performance/optimizing-content-efficiency/loading-third-party-javascript/
+- https://github.com/aneagoie/keiko-corp
+- https://developers.google.com/web/tools/lighthouse/
+- 
 
-03: 13
+
+
+03: 20
 
