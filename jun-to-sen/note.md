@@ -4,9 +4,11 @@
 
 - https://aneagoie.github.io/keiko-corp
 - https://github.com/aneagoie/keiko-corp
+- https://github.com/aneagoie/robofriends
+- https://github.com/aneagoie/robofriends-redux
+- 
 - https://github.com/aneagoie/python-cheatsheet
 - https://github.com/aneagoie/smart-brain
-- https://github.com/aneagoie/robofriends
 
 ## 02: SSH
 
@@ -211,4 +213,4 @@ Step - 1
 
 ## 04: React + Redux + Module Bundling
 
-04: 01
+04: 06
