@@ -203,9 +203,12 @@ Step - 1
 - https://stackoverflow.com/questions/985431/max-parallel-http-connections-in-a-browser
 - https://developers.google.com/web/fundamentals/performance/optimizing-content-efficiency/loading-third-party-javascript/
 - https://developers.google.com/web/tools/lighthouse/
-- 
+- https://developers.google.com/web/fundamentals/performance/http2/
 
 
 
-03: 20
+03: class done and practical done
 
+## 04: React + Redux + Module Bundling
+
+04: 01
