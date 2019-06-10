@@ -249,5 +249,12 @@ Create and update /src/robots.js
 
 Create and update /src/components/CardList.js
 
+Create and update /src/containers/App.js
 
-04: 12
+Create and update /src/components/SearchBox.js
+
+> **Props** never changes
+
+> **State** may change
+
+04: 13
