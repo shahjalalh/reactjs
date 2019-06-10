@@ -257,4 +257,6 @@ Create and update /src/components/SearchBox.js
 
 > **State** may change
 
-04: 13
+Create and update /src/containers/App.css
+
+04: 14
