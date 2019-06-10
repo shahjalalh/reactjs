@@ -243,5 +243,11 @@ Create and update /src/components/Card.js
 
 Update /src/index.js
 
+https://robohash.org/
 
-04: 10
+https://robohash.org/any-text?size=200x200
+
+Create and update /src/robots.js
+
+
+04: 11
