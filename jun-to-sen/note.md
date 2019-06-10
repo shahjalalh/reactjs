@@ -1,5 +1,3 @@
-# Senior Web Developer Roadmap (2019)
-
 ## 01: Introduction 
 
 - https://aneagoie.github.io/keiko-corp
