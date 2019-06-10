@@ -213,4 +213,35 @@ Step - 1
 
 ## 04: React + Redux + Module Bundling
 
-04: 06
+Install [create-react-app](https://www.npmjs.com/package/create-react-app) with npm - 
+```
+$ sudo npm install -g create-react-app
+$ create-react-app robofriends
+$ npm start
+```
+
+Updating create-react-app in a certain project. Open package.json file and change the version of "react-scripts" in the "dependencies" and then run ```npm install```
+```
+"dependencies": {
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "react-scripts": "2.0.1",
+    "tachyons": "^4.9.0"
+  },
+```
+
+And, run - 
+```
+$ npm install
+$ npm start
+$ npm install tachyons
+```
+
+Keep only /src/index.css index.js and registerServiceWorker.js and delete the rest.
+
+Create and update /src/components/Card.js
+
+Update /src/index.js
+
+
+04: 10
