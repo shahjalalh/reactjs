@@ -249,5 +249,7 @@ https://robohash.org/any-text?size=200x200
 
 Create and update /src/robots.js
 
+Create and update /src/components/CardList.js
 
-04: 11
+
+04: 12
