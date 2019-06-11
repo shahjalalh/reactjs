@@ -259,4 +259,16 @@ Create and update /src/components/SearchBox.js
 
 Create and update /src/containers/App.css
 
-04: 14
+Create and update /src/components/Scroll.js
+
+```build``` command will build folder inside the project folder
+
+```
+$ npm run build
+```
+
+Create and update /src/components/ErrorBoundary.js
+
+
+
+04: 22
