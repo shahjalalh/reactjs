@@ -274,4 +274,8 @@ Create and update /src/components/ErrorBoundary.js
 
 All the ```actions``` come -> one ```reducer``` -> whole app one ```store``` -> ```make changes``` in front end. 
 
-04: 22
+### Flux Pattern
+
+<img src="./images/5-flux-pattern.png">
+
+04: 23
