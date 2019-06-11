@@ -269,6 +269,9 @@ $ npm run build
 
 Create and update /src/components/ErrorBoundary.js
 
+### React-Redux
+<img src="./images/4-react-redux-workprocess.png">
 
+All the ```actions``` come -> one ```reducer``` -> whole app one ```store``` -> ```make changes``` in front end. 
 
 04: 22
