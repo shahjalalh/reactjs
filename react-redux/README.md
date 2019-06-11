@@ -16,6 +16,16 @@ In some rare case if normal life cycle methods can not help -
 
 
 ### redux cycle:
+
+#### in simple way
+<img src="./images/react-redux-workprocess.png">
+
+All the ```actions``` come -> one ```reducer``` -> whole app one ```store``` -> ```make changes``` in front end. 
+
+#### Flux Pattern
+
+<img src="./images/flux-pattern.png">
+
 <img src="./images/diagrams-redux-cycle.png" />
 
 ### redux cycle in insurance  company (example):
