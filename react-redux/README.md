@@ -42,6 +42,8 @@ $ yarn add lodash redux react-redux axios redux-thunk react-router-dom redux-for
 $ 
 ```
 
+> Always think the **pros** and **cons** of using one extra new library. It may have learning curve as well as total performance issue.
+
 ### react supporting modules
 <img src="./images/diagrams-redux-react-redux-axios-redux-thunk.png" />
 

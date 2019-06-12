@@ -303,4 +303,36 @@ update /src/index.js
 update /src/containers/App.js
 
 
-04: 29
+> Always think the **pros** and **cons** of using one extra new library. It may have learning curve as well as total performance issue.
+
+### Bundler
+- [webpack](https://webpack.js.org/): good for big project
+- [parceljs](https://parceljs.org/): good for small project
+
+> Do not use too much time learning bundler. It always changes in new version. Better concentrate on optimized coding.
+
+### Webpack Configuration
+- [Webpack configuration generator](https://createapp.dev/)
+
+
+```
+$ mkdir webpack-project
+$ cd webpack-project
+$ 
+$ npm init -y
+$ 
+$ code .
+$ mkdir dist
+$ cd dist
+$ touch index.html
+$ cd ..
+$ 
+```
+
+create and update webpack-project/index.html 
+
+```
+$ npm install --save-dev webpack webpack-dev-server webpack-cli
+```
+
+04: 35
