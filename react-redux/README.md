@@ -45,6 +45,10 @@ $
 ### react supporting modules
 <img src="./images/diagrams-redux-react-redux-axios-redux-thunk.png" />
 
+### Middleware
+
+<img src="./images/middleware.png">
+
 ### General data loading with redux
 <img src="./images/diagrams-general-data-loading-with-redux.png" />
 

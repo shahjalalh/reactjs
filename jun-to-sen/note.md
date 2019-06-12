@@ -278,4 +278,29 @@ All the ```actions``` come -> one ```reducer``` -> whole app one ```store``` -> 
 
 <img src="./images/5-flux-pattern.png">
 
-04: 23
+### Middleware
+
+<img src="./images/6-middleware.png">
+
+```
+$ npm install redux react-redux redux-thunk
+```
+
+> ```redux```: is an independent library and can be use with anything
+
+> ```react-redux```: is a connector between **react** and **redux**
+
+> ```redux-thunk```: is a middleware for asynchronous action 
+
+create and update /src/actions.js
+
+create and update /src/constants.js
+
+create and update /src/reducers.js
+
+update /src/index.js
+
+update /src/containers/App.js
+
+
+04: 29
