@@ -309,7 +309,7 @@ update /src/containers/App.js
 - [webpack](https://webpack.js.org/): good for big project
 - [parceljs](https://parceljs.org/): good for small project
 
-> Do not use too much time learning bundler. It always changes in new version. Better concentrate on optimized coding.
+> Do not use too much time learning bundler. It always changes in new version. Try to read configuration documentation before start. Better concentrate on optimized coding.
 
 ### Webpack Configuration
 - [Webpack configuration generator](https://createapp.dev/)
@@ -335,4 +335,57 @@ create and update webpack-project/index.html
 $ npm install --save-dev webpack webpack-dev-server webpack-cli
 ```
 
-04: 35
+in package.json
+```
+{
+  "start": "webpack-dev-server --config ./webpack.config.js --mode development"
+}
+```
+
+```
+$ touch webpack.config.js
+$ mkdir src
+$ touch src/index.js
+```
+
+```
+module.exports = {
+  entry: [
+    './src/index.js
+  ],
+  output: {
+    path: __dirname + '/dist', 
+    publicPath: '/',
+    filename: 'bundle.js'
+  },
+  devServer: {
+    contentBase: './dist'
+  },
+  module: {
+    rules: [
+      test: /\.(.js|jsx)$/,
+      exclude: /node_modules/,
+      use: ['babel-loader']
+    ]
+  }
+}
+```
+
+```
+$ npm install --save-dev babel-core babel-loader babel-preset-env
+$ npm install --save-dev babel-preset-state-2
+$ npm install --save-dev babel-preset-react
+```
+
+in package.json
+```
+},
+"babel": [
+  "env",
+  "stage-2",
+  "react"
+  ]
+},
+```
+
+04: 35:21
