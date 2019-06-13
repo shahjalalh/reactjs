@@ -476,3 +476,7 @@ The 3 principals of redux:
 
 
 04: class done and practical not done
+
+## 05: Performance Part 2
+
+05: 01
