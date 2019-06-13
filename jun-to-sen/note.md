@@ -362,30 +362,117 @@ module.exports = {
     contentBase: './dist'
   },
   module: {
-    rules: [
-      test: /\.(.js|jsx)$/,
+    rules: [{
+      test: /\.(js|jsx)$/,
       exclude: /node_modules/,
       use: ['babel-loader']
+    }, 
+    {
+      test: /\.(js|jsx)$/,
+      exclude: /node_modules/,
+      use: ['eslint-loader']
+    }
     ]
+  },
+  resolve: {
+    extensions: ['.js', '.jsx ']
   }
 }
 ```
 
 ```
-$ npm install --save-dev babel-core babel-loader babel-preset-env
-$ npm install --save-dev babel-preset-state-2
+$ npm install --save-dev @babel/core @babel/preset-env @babel/preset-react babel-loader 
+$ npm install --save-dev babel-preset-stage-2
 $ npm install --save-dev babel-preset-react
+$ npm install --save react react-dom
+$ npm install --save-dev eslint eslint-loader babel-eslint
 ```
+
+> babel-preset-stage-2 is deprecated ```npm install --save-dev babel-preset-stage-2```
 
 in package.json
 ```
 },
-"babel": [
-  "env",
-  "stage-2",
-  "react"
+"babel": {
+  "presets": [
+    "@babel/preset-env",
+    "@babel/preset-react"
   ]
+}
+,
+```
+
+This type of **.eslintrc is deprecated**
+```
+$ touch .eslintrc
+
+{
+  parser: "babel-eslint",
+  "rules": {
+    "no-console": "error"
+  },
+  "extends": ["airbnb-base"]
+}
+```
+
+> **airbnb eslint** is the best in the market https://www.npmjs.com/package/eslint-config-airbnb 
+```
+$ npm install --save-dev eslint-config-airbnb eslint-plugin-import eslint-plugin-jsx-ally
+```
+
+New standard
+```
+$ touch .eslintrc.json
+```
+
+### Parcel
+
+```
+$ mkdir parcel
+$ cd parcel
+$
+$ npm init
+$ npm install --save react react-dom 
+$ npm install --save-dev parcel-bundler babel-preset-env babel
+$ touch .babelrc
+$ 
+```
+
+In .babelrc
+```
+{
+  "presets": ["env", "react"]
+}
+```
+
+In package.json
+```
+},
+"scripts": {
+  "start": "parcel index.html"
 },
 ```
 
-04: 35:21
+```
+$ touch index.html
+
+//---------------------------------------
+
+```
+
+```
+$ touch index.js
+
+//---------------------------------------
+// index.js in simple react component "Hello World!!!"
+
+$ npm start
+```
+
+The 3 principals of redux:
+1. Single source of truth
+2. State is read only
+3. Changes using pure function
+
+
+04: class done and practical not done

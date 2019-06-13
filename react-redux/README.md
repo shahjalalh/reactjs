@@ -17,6 +17,11 @@ In some rare case if normal life cycle methods can not help -
 
 ### redux cycle:
 
+The 3 principals of redux:
+1. Single source of truth
+2. State is read only
+3. Changes using pure function
+
 #### in simple way
 <img src="./images/react-redux-workprocess.png">
 
