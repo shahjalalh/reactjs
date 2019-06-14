@@ -179,6 +179,8 @@ Step - 1
 9. Minimize DOM manipulation
 10. Avoid long running Javascript
 
+https://stackoverflow.com/questions/10808109/script-tag-async-defer
+
 <img src="./images/3-loading-third-party-javascript.png">
 
 ### Test a website's performance
@@ -479,4 +481,16 @@ The 3 principals of redux:
 
 ## 05: Performance Part 2
 
-05: 01
+https://github.com/zero-to-mastery/start-here-guidelines
+
+https://github.com/zero-to-mastery
+
+https://zerotomastery.io/
+
+https://github.com/zero-to-mastery/start-here-guidelines/blob/master/Get%20Started.md
+
+
+> **Code Splitting** makes the app faster like, react coding style
+<img src="./images/7-code-splitting.jpg">
+
+05: 07
