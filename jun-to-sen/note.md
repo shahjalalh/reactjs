@@ -490,7 +490,8 @@ https://zerotomastery.io/
 https://github.com/zero-to-mastery/start-here-guidelines/blob/master/Get%20Started.md
 
 
-> **Code Splitting** makes the app faster like, react coding style
+> **Code Splitting** makes the app faster. https://reactjs.org/docs/higher-order-components.html
 <img src="./images/7-code-splitting.jpg">
 
-05: 07
+
+05: 11
