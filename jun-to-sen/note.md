@@ -672,5 +672,25 @@ $ npm run deploy
 
 ## 06: Testing
 
+> Bugs cost a lot of money to the Companies
 
-06: 01
+```
+$ npm run test
+```
+
+```
+$ npm test -- --coverage
+```
+
+### Types of tests -
+1. Unit Tests (function wise testing - less expensive)
+2. Integration Tests (function connection with other function - moderate expensive)
+3. Automation Tests (UI test - more expensive)
+
+<img src="./images/14-testing-libraries.png">
+
+> https://jestjs.io/ is created by Facebook. And react is created by Facebook
+
+
+
+06: 05
