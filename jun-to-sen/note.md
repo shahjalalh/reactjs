@@ -670,3 +670,7 @@ $ npm run deploy
 
 05: class done and practical not done
 
+## 06: Testing
+
+
+06: 01
