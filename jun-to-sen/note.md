@@ -4,7 +4,8 @@
 - https://github.com/aneagoie/keiko-corp
 - https://github.com/aneagoie/robofriends
 - https://github.com/aneagoie/robofriends-redux
-- 
+- https://github.com/aneagoie/code-splitting-exercise
+
 - https://github.com/aneagoie/python-cheatsheet
 - https://github.com/aneagoie/smart-brain
 
@@ -493,5 +494,59 @@ https://github.com/zero-to-mastery/start-here-guidelines/blob/master/Get%20Start
 > **Code Splitting** makes the app faster. https://reactjs.org/docs/higher-order-components.html
 <img src="./images/7-code-splitting.jpg">
 
+https://reactjs.org/docs/code-splitting.html#reactlazy
 
-05: 11
+https://www.smooth-code.com/open-source/loadable-components/docs/loadable-vs-react-lazy/
+
+https://reactjs.org/docs/code-splitting.html
+
+https://github.com/jamiebuilds/react-loadable
+
+> Append ?react_perf to your local server URL (e.g. localhost:3000/?react_perf) and visit that URL in a browser. Check **Highlight Updates**.
+https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi?hl=en
+<img src="./images/8-chrome-developer-tool.png">
+
+https://medium.com/@wereHamster/beware-react-setstate-is-asynchronous-ce87ef1a9cf3
+
+https://vasanthk.gitbooks.io/react-bits/patterns/19.async-nature-of-setState.html
+
+https://github.com/maicki/why-did-you-update
+
+
+### Optimizing Code
+1. Only loaded what is needed:
+  - Code Splitting
+  - Tree Shaking
+2. Avoid blocking main thread
+3. Avoid Memory Leaks
+4. Avoid Multiple re-rendering
+
+https://developers.google.com/web/fundamentals/performance/optimizing-javascript/tree-shaking/
+
+### Progressive Web App (PAW)
+
+http://debuggerdotbreak.judahgabriel.com/2018/04/13/i-built-a-pwa-and-published-it-in-3-app-stores-heres-what-i-learned/
+
+https://medium.com/@firt/progressive-web-apps-on-ios-are-here-d00430dee3a7
+
+Some of the top PWAs from around the world: https://appsco.pe/
+
+Publishing (static) webpage using Github Pages: https://pages.github.com/
+
+Progressive Web Apps Checklist: https://developers.google.com/web/progressive-web-apps/checklist
+
+Finally, if you would like to implement HTTPS yourself, use https://letsencrypt.org/docs/
+
+To learn more, have a look at https://developers.google.com/web/tools/lighthouse/audits/has-viewport-meta-tag
+
+generate icons for your robofriends PWA: https://realfavicongenerator.net/
+
+What Web Can Do Today: https://whatwebcando.today/
+
+> Do not add any new technology just because it is a **latest hype** and **cool**. Add new technology if it adds great value in App.
+
+PWA checklist tools for Web Developers: https://developers.google.com/web/tools/lighthouse/
+
+Example of PWA, https://pokedex.org/
+
+05: 22
