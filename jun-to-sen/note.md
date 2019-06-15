@@ -539,14 +539,50 @@ Finally, if you would like to implement HTTPS yourself, use https://letsencrypt.
 
 To learn more, have a look at https://developers.google.com/web/tools/lighthouse/audits/has-viewport-meta-tag
 
-generate icons for your robofriends PWA: https://realfavicongenerator.net/
+generate icons for your (robofriends) PWA App: https://realfavicongenerator.net/
 
 What Web Can Do Today: https://whatwebcando.today/
 
 > Do not add any new technology just because it is a **latest hype** and **cool**. Add new technology if it adds great value in App.
 
-PWA checklist tools for Web Developers: https://developers.google.com/web/tools/lighthouse/
+PWA checklist tools for Web Developers(perfect 100 score from Lighthouse on all categories): https://developers.google.com/web/tools/lighthouse/
 
-Example of PWA, https://pokedex.org/
+Example of PWA, https://pokedex.org/, https://hnpwa.com/
 
-05: 22
+CDN https://www.cloudflare.com/
+
+Common PWA features-
+1. HTTPS
+2. App Manifest
+3. Service Worker
+
+In index.html
+```
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+```
+
+and ```manifest.json``` **(how the app should appear in mobile device)** are must for PWA.
+<img src="./images/9-paw-in-chrome-dev-tools.png">
+
+You can see https://github.com/jeffposnick/create-react-pwa/compare/starting-point...pwa to see what you would need to do to add service worker into an existing create react app project without the default service worker.
+
+Extra resources - https://jakearchibald.github.io/isserviceworkerready/ , https://auth0.com/blog/introduction-to-progressive-web-apps-push-notifications-part-3/
+
+ACCESSIBILITY - https://www.w3.org/standards/webdesign/accessibility
+
+You can find the solution Github repository at - https://github.com/aneagoie/robofriends-pwa
+
+Finally, I would like to share with you this resource to finish off this section. It is a website that lists all tools that you can use to improve front end performance of your web app: https://progressivetooling.com/
+
+After build a react app, ```/build/service-worker.js``` contains all service worker code.
+<img src="./images/10-service-worker-in-chrome-dev-tools.png"> 
+
+> How service worker works? <img src="./images/11-how-service-worker-works.png">
+
+> Where service worker keep cache? <img src="./images/12-service-worker-cache-storage.png">
+
+> Need to be careful in case of building a PWA, what work's and what doesn't in the browser? Like, push notification works some browser and some does not. 
+
+> **Decide the effort which worth the benefit** - before integrating any new technology.  
+
+05: 30
