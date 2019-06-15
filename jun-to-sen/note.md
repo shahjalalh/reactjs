@@ -551,7 +551,7 @@ Example of PWA, https://pokedex.org/, https://hnpwa.com/
 
 CDN https://www.cloudflare.com/
 
-Common PWA features-
+### Common PWA features-
 1. HTTPS
 2. App Manifest
 3. Service Worker
@@ -585,4 +585,88 @@ After build a react app, ```/build/service-worker.js``` contains all service wor
 
 > **Decide the effort which worth the benefit** - before integrating any new technology.  
 
-05: 30
+### Converting https://github.com/aneagoie/robofriends-redux into PWA
+
+Install guthub pages with npm - https://www.npmjs.com/package/gh-pages
+```
+$ npm install gh-pages --save-dev
+```
+
+Update package.json
+```
+"homepage": "https://shahjalalh.github.io/git-repo-name",
+"scripts": {
+  "predeploy": "npm run build",
+  "deploy": "gh-pages -d build",
+  ...
+  ...
+},
+```
+
+```
+$ npm run deploy
+```
+Now go to github > settings > "GitHub Pages" Select source: ```gh-pages branch``` is selected (make sure).
+
+Now click on Chrome toolbar **Lighthouse** icon > **Generate report**
+
+With every issues there is a link called **Learn more**. It gives detail documentation to fix the issue. Fix one by one - some examples - 
+
+- add /src/components/SearchBox.js
+```
+<input aria-label='Search Robots' ...
+```
+
+- In /public/index.html
+```
+<head>
+...
+<meta name="Description" content="Where Robots make friends." />
+...
+</head>
+```
+
+After fixing all - run -
+```
+$ npm run deploy
+```
+**It may takes several minutes to take effect in github pages.**
+
+**```Performance``` score will depend on the internet speed.**
+
+Use https://realfavicongenerator.net/ to create favicon for the app. Then download, extract and copy all the files into **/public/** folder. And add the codes into the **/public/index.html** ```head``` tag.
+
+**make sure the image is square**
+
+> You may want to add: **%PUBLIC_URL%/** in front of the url paths as seen in the other link tags. 
+
+inside manifest.json
+```
+"icons": [
+  {
+    ....
+  },
+  {
+    "src": "/android-chrome-192x192.png",
+    "sizes": "192x192",
+    "type": "image/png"
+  },
+  {
+    "src": "/android-chrome-512x512.png",
+    "sizes": "512x512",
+    "type": "image/png"
+  }
+]
+```
+
+After fixing all - run -
+```
+$ npm run deploy
+```
+**It may takes several minutes to take effect in github pages.**
+
+> Moment of Truth
+<img src="./images/13-lighthouse-pwa-performance-analyzing.png">
+
+05: class done and practical not done
+
