@@ -766,12 +766,20 @@ $ npm i --save-dev enzyme enzyme-adapter-react-16
 
 create and update /src/setupTests.js
 
-create and update /src/components/Card.test.js
+create and update /src/components/Card.test.js for **snapshot test**
 
 Run -
 ```
 $ npm test
 ```
 
+### Coverage
+```
+$ npm test -- --coverage
+```
 
-06: 21
+create and update CardList.test.js 
+
+
+
+06: 23
