@@ -5,7 +5,9 @@
 - https://github.com/aneagoie/robofriends
 - https://github.com/aneagoie/robofriends-redux
 - https://github.com/aneagoie/code-splitting-exercise
-
+- https://github.com/aneagoie/robofriends-pwa
+- https://github.com/aneagoie/udemy-testing-exercise
+- 
 - https://github.com/aneagoie/python-cheatsheet
 - https://github.com/aneagoie/smart-brain
 
@@ -691,6 +693,54 @@ $ npm test -- --coverage
 
 > https://jestjs.io/ is created by Facebook. And react is created by Facebook
 
+### 1. Unit Tests: covers all small pure function of an application.
+
+### 2. Integration Tests: cross communication between different units of code(use Spy to get expected side effect or use Stub to Mock and modify parts of the process that are not inside of the specific test such as mocking a database call. They are expensive and slower and much much harder to write.
+
+### 3. Automation Tests: it always runs in browser or browser like environment because they need to simulate user behavior such as clicking, typing, scrolling etc. This tests are hardest to setup. https://devexpress.github.io/testcafe/ (best for beginner), https://webdriver.io/ (best documentation), http://www.nightmarejs.org/ (simple way simulate user) 
+
+2 different testing is important
+1. Unit test
+2. Integration test
+
+And completely separate one -
+1. Automation test or UI test
+
+Do not send files in production:
+<img src="./images/15-test-preparation.png">
+
+> Jest Cheat Sheet https://github.com/sapegin/jest-cheat-sheet
+
+```
+$ mkdir test
+$ cd test
+$ npm init -y
+$ touch script.js
+$ npm install --save-dev jest
+$ 
+```
+
+in package.json
+```
+"scripts": {
+  "test": "jest --watch *.js"
+},
+```
+
+https://github.com/aneagoie/udemy-testing-exercise
+
+update script.js
+```
+$ node script.js
+$ npm run test
+$
+$ touch script.test.js
+```
+
+update script.test.js
+```
+$ npm run test
+```
 
 
-06: 05
+06: 12
