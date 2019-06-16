@@ -742,5 +742,36 @@ update script.test.js
 $ npm run test
 ```
 
+### api call test
+api demo: https://swapi.co/
 
-06: 12
+create and update script2.js
+
+create and update script2.test.js
+```
+$ npm install --save node-fetch
+$ npm run test
+```
+
+### Enzyme: Enzyme is a JavaScript Testing utility for React that makes it easier to test your React Components' output. 
+To learn more about the 3 techniques used in Enzyme for testing: **shallow**, **mount**, **render**, have a look at their api documentation (https://airbnb.io/enzyme/docs/api/) to see what kind of methods you can use to test your components. We will be using some of them in the later parts of this section.
+
+> **shallow** is mostly used. Test one thing at a time without effecting child components.
+
+```
+$ npm i --save-dev enzyme enzyme-adapter-react-16
+```
+
+> **jest** is installed by default in react app (which are created by ```create-react-app```, in ```react-scripts:...`` of package.json)
+
+create and update /src/setupTests.js
+
+create and update /src/components/Card.test.js
+
+Run -
+```
+$ npm test
+```
+
+
+06: 21
