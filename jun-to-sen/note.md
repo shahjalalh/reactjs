@@ -821,3 +821,6 @@ Lower-level API testing: https://www.npmjs.com/package/supertest
 
 06: class done and practical not done
 
+## 07: TypeScript
+
+06: 01
