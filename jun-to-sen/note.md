@@ -7,6 +7,7 @@
 - https://github.com/aneagoie/code-splitting-exercise
 - https://github.com/aneagoie/robofriends-pwa
 - https://github.com/aneagoie/udemy-testing-exercise
+https://github.com/aneagoie/robofriends-testing
 - 
 - https://github.com/aneagoie/python-cheatsheet
 - https://github.com/aneagoie/smart-brain
@@ -780,6 +781,43 @@ $ npm test -- --coverage
 
 create and update CardList.test.js 
 
+Create and update CounterButton.test.js
+
+> React project testing: **Jest** + **React** + **Snapshot testing** + **Enzyme**
+<img src="./images/16-react-project-testing.png">
+
+Create and update App.test.js
+
+Create and update /src/components/MainPage.js
+
+Create and update /src/actions.test.js
+
+```
+$ npm run build
+$ npm run test -- --coverage
+$ npm install --save redux-mock-store
+$ 
+```
+
+https://www.npmjs.com/package/redux-mock-store
+
+> In testing, we can do infinite things, in limited time
+
+> **A/B testing**: A/B testing (bucket tests or split-run testing) is a randomized experiment with two variants, A and B. Ex- Take your proposed campaign email and create a second version which differs in some way from the original, perhaps it features a different subject line.
+
+> **A/B/C testing (code coverage or test coverage)**: A/B/C testing is just an extended version of A/B testing. Instead of two versions of your email, you have 3, 4, or 5 versions to let you test more variations of the particular element you’re investigating.
+The downside? You need more test groups. If you have a small list, it can be a challenge to gather enough email addresses in your test groups to ensure the differences you see are not simply down to chance.
+
+> It is not a good idea of have **100% code coverage** because you are running test, which are most likely don't need to be run and you are wasting your time. You could spend time in other areas of the app.
 
 
-06: 24
+https://github.com/aneagoie/robofriends-testing
+
+https://blog.usejournal.com/lean-testing-or-why-unit-tests-are-worse-than-you-think-b6500139a009
+
+Great for Asynchronous test: https://www.npmjs.com/package/nock
+
+Lower-level API testing: https://www.npmjs.com/package/supertest
+
+06: class done and practical not done
+
