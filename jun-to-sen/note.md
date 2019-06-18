@@ -823,4 +823,43 @@ Lower-level API testing: https://www.npmjs.com/package/supertest
 
 ## 07: TypeScript
 
-06: 01
+Type of languages -
+<img src="./images/17-type-of-programming-language.png" />
+
+```
+# javascript dynamic typed language
+var a = 100;
+
+# C/C++, Java static typed language
+int a = 100;
+a = 100;
+
+# javascript weakly typed language
+var a = "boooooyaa";
+a + 17
+
+# python strongly typed language
+a = "boooooyaa";
+a + 17 # ERROR - string adds with decimal
+```
+
+Static typed languages:
+<img src="./images/18-static-typing-in-javascript.png">
+
+> flow: https://flow.org/ , 
+reasonml: https://reasonml.github.io/ , 
+typescript: https://www.typescriptlang.org/,
+elm: https://elm-lang.org/
+
+> Developer Survey Results 2019: https://insights.stackoverflow.com/survey/2019
+
+### TypeScript installation
+```
+$ node -v
+v8.11.3
+$ sudo npm install -g typescript
+$ tsc 
+$
+```
+
+07: 07
