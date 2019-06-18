@@ -854,12 +854,42 @@ elm: https://elm-lang.org/
 > Developer Survey Results 2019: https://insights.stackoverflow.com/survey/2019
 
 ### TypeScript installation
+
+Use NVM to install node - 
 ```
 $ node -v
 v8.11.3
+$ npm -v
+5.6.0
 $ sudo npm install -g typescript
 $ tsc 
 $
 ```
 
-07: 07
+https://www.npmjs.com/package/typescript , https://stackoverflow.com/questions/39404922/tsc-command-not-found-in-compiling-typescript
+
+> TypeScript Editor Support: https://github.com/Microsoft/TypeScript/wiki/TypeScript-Editor-Support
+
+> To learn more about the difference between type  and interface :
+https://medium.com/@martin_hotell/interface-vs-type-alias-in-typescript-2-7-2a8f1777af4c
+https://www.briangonzalez.org/post/interface-types-vs-type-aliases-typescript
+
+> Type Assertion is another complex topic. If you want to learn more about it, I recommend you read this: https://basarat.gitbooks.io/typescript/docs/types/type-assertion.html
+
+```
+$ mkdir type
+$ cd type
+$ touch typescript.ts
+$ tsc typescript.js
+$ 
+```
+
+In typescript.ts
+```
+const sum = (a:number, b:number) => {
+  return a + b;
+}
+```
+
+
+07: 09
