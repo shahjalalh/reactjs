@@ -908,4 +908,8 @@ https://github.com/aneagoie/robofriends-typescript
 
 ## 08: SPA vs Server Side Rendering
 
-08: 01
+The first website: http://info.cern.ch/
+
+Product hunt: https://www.producthunt.com
+
+08: 03:30
