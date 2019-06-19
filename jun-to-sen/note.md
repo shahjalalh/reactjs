@@ -905,3 +905,7 @@ https://github.com/aneagoie/robofriends-typescript
 
 
 07: class done and practical not done
+
+## 08: SPA vs Server Side Rendering
+
+08: 01
