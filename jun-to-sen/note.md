@@ -7,8 +7,9 @@
 - https://github.com/aneagoie/code-splitting-exercise
 - https://github.com/aneagoie/robofriends-pwa
 - https://github.com/aneagoie/udemy-testing-exercise
-https://github.com/aneagoie/robofriends-testing
-- 
+- https://github.com/aneagoie/robofriends-testing
+- https://github.com/aneagoie/robofriends-typescript
+- https://github.com/aneagoie/robofriends-typescript-completed
 - https://github.com/aneagoie/python-cheatsheet
 - https://github.com/aneagoie/smart-brain
 
@@ -891,5 +892,16 @@ const sum = (a:number, b:number) => {
 }
 ```
 
+To enable watch mode - https://www.typescriptlang.org/docs/handbook/tsconfig-json.html
+```
+$
+$ tsc --init
+$ tsc typescript.ts --watch 
+```
 
-07: 11
+Adding TypeScript to react: https://facebook.github.io/create-react-app/docs/adding-typescript
+
+https://github.com/aneagoie/robofriends-typescript
+
+
+07: class done and practical not done
