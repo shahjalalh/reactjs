@@ -985,4 +985,12 @@ create and update /pages/robots.js
 
 Global Serverless Deployments: https://zeit.co/now
 
+Pages for search engine crawlers: https://prerender.io/
+
+> https://www.priceline.com/, https://www.walmart.com/, https://www.airbnb.com/ etc. are big fan of SSR because **they care about their SEO**. Lot of their customer come through SEO.
+
+> **SSR is good for SEO**
+
+> **CSR is bad for SEO**
+
 08: class done and practical not done
