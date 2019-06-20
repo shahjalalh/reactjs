@@ -997,4 +997,6 @@ Pages for search engine crawlers: https://prerender.io/
 
 ## 09: Security
 
-09: 01
+> Security is an always evolving field. You will never be 100% secure. No program ever is! However, we can build great resistance by following some guidelines.
+
+09: 03
