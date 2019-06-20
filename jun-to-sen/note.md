@@ -994,3 +994,7 @@ Pages for search engine crawlers: https://prerender.io/
 > **CSR is bad for SEO**
 
 08: class done and practical not done
+
+## 09: Security
+
+09: 01
