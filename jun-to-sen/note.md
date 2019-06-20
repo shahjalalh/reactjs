@@ -10,6 +10,8 @@
 - https://github.com/aneagoie/robofriends-testing
 - https://github.com/aneagoie/robofriends-typescript
 - https://github.com/aneagoie/robofriends-typescript-completed
+- https://github.com/aneagoie/next-ssr
+- 
 - https://github.com/aneagoie/python-cheatsheet
 - https://github.com/aneagoie/smart-brain
 
@@ -965,6 +967,22 @@ go to localhost:3000/about
 
 > use react html tag components for client site rendering like - ```<Link>``` react tag.
 
+> To better understand the difference between Server Side and Client Side routing, https://medium.com/@wilbo/server-side-vs-client-side-routing-71d710e9227f
 
+> Once you are done, try recreating the effect I demonstrated in the last video: Create two pages in your next.js project, and try linking between them first with the ```<a>``` tag, then with with ```<Link>``` component provided by next. Open up the **Network Tab** in your **chrome developer tools** and see how they are different. 
 
-08: 11
+https://github.com/aneagoie/next-ssr
+
+create and update /components/image.js
+
+```
+$ npm install isomorphic-unfetch
+```
+
+https://jsonplaceholder.typicode.com/
+
+create and update /pages/robots.js
+
+Global Serverless Deployments: https://zeit.co/now
+
+08: class done and practical not done
