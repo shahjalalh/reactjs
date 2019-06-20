@@ -912,4 +912,59 @@ The first website: http://info.cern.ch/
 
 Product hunt: https://www.producthunt.com
 
-08: 03:30
+> Too much of everything is not good
+
+### Client Side Rendering (CSR)
+| Pros             |Cons                  |
+|------------------|---------------------:|
+| Rich Interaction |Low SEO potential     |
+| Faster Response  |                      |
+| Web Applications |Longer initial loads  |
+
+### Server Side Rendering (SSR)
+| Pros             |Cons                  |
+|------------------|---------------------:|
+| Static Site      |Full page reload      |
+| SEO              |Slower page rendering |
+| Initial Page Load|# Request to server   |
+
+
+> Server Server Rendering for react static site (text based web sites like documentation) : https://www.gatsbyjs.org/ . React uses (https://reactjs.org/docs/introducing-jsx.html) in their documentation site.
+
+> Server/Client Side Rendering is great with https://nextjs.org/ for rich application (React in client site and next in server side). 
+
+### Setting up Next.js
+```
+$ mkdir next-ssr
+$ cd next-ssr
+$ npm init -y
+$ 
+$ npm install next react react-dom
+$ 
+$ mkdir pages
+```
+
+In package.json
+```
+"scripts": {
+  "start": "next",
+}
+```
+
+```
+$ npm start 
+```
+
+go to localhost:3000
+
+create and update /pages/index.js
+
+create and update /pages/about.js
+
+go to localhost:3000/about
+
+> use react html tag components for client site rendering like - ```<Link>``` react tag.
+
+
+
+08: 11
