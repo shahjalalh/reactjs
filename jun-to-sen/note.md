@@ -11,6 +11,9 @@
 - https://github.com/aneagoie/robofriends-typescript
 - https://github.com/aneagoie/robofriends-typescript-completed
 - https://github.com/aneagoie/next-ssr
+- https://www.hacksplaining.com/exercises/sql-injection
+- https://github.com/aneagoie/security-client-exercise
+- https://github.com/aneagoie/security-server-exercise
 - 
 - https://github.com/aneagoie/python-cheatsheet
 - https://github.com/aneagoie/smart-brain
@@ -1003,6 +1006,10 @@ Pages for search engine crawlers: https://prerender.io/
 <img src="./images/19-star-of-security.png">
 
 **Injections**: 
+1. Sanitize input
+2. Parametrize Queries or Prepared Statement
+3. Knex.js or other ORMS
+
 ```
 # ' or 1=1--
 INSERT INTO sqlinjection (email) VALUES (; DROP TABLE sqlinjection; --);
@@ -1010,4 +1017,24 @@ INSERT INTO sqlinjection (email) VALUES (; DROP TABLE sqlinjection; --);
 
 PostgreSQL GUI tool for macOS: http://www.psequel.com/
 
-09: 04:5
+To try your own SQL Injection, here is a great exercise you can do to see its power: https://www.hacksplaining.com/exercises/sql-injection
+
+> Front End Code: https://github.com/aneagoie/security-client-exercise
+
+> Back End Code: https://github.com/aneagoie/security-server-exercise
+
+https://medium.com/npm-inc/announcing-npm-6-5d0b1799a905
+
+https://blog.npmjs.org/post/175511531085/the-node-security-platform-service-is-shutting
+
+**3rd Party Libraries**
+```
+$ npm install -g nsp
+$ nsp check # audit package.json
+$
+$ npm install -g snyk
+$ snyk test # audit node_modules directory
+$
+```
+
+09: 8
