@@ -999,4 +999,15 @@ Pages for search engine crawlers: https://prerender.io/
 
 > Security is an always evolving field. You will never be 100% secure. No program ever is! However, we can build great resistance by following some guidelines.
 
-09: 03
+> Star of Security
+<img src="./images/19-star-of-security.png">
+
+**Injections**: 
+```
+# ' or 1=1--
+INSERT INTO sqlinjection (email) VALUES (; DROP TABLE sqlinjection; --);
+```
+
+PostgreSQL GUI tool for macOS: http://www.psequel.com/
+
+09: 04:5
