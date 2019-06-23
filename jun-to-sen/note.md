@@ -1223,5 +1223,8 @@ the free lessons: https://www.hacksplaining.com/lessons
 
 watch your hack: https://watchyourhack.com/
 
-
 09: class done and practical not done
+
+## 10: Code Analysis
+
+10: 01
