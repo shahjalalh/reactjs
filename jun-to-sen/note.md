@@ -1223,6 +1223,8 @@ the free lessons: https://www.hacksplaining.com/lessons
 
 watch your hack: https://watchyourhack.com/
 
+https://www.owasp.org/index.php/Main_Page
+
 09: class done and practical not done
 
 ## 10: Code Analysis
