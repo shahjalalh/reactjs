@@ -1005,7 +1005,7 @@ Pages for search engine crawlers: https://prerender.io/
 > Star of Security
 <img src="./images/19-star-of-security.png">
 
-**Injections**: 
+**1. Injections**: 
 1. Sanitize input
 2. Parametrize Queries or Prepared Statement
 3. Knex.js or other ORMS
@@ -1027,14 +1027,62 @@ https://medium.com/npm-inc/announcing-npm-6-5d0b1799a905
 
 https://blog.npmjs.org/post/175511531085/the-node-security-platform-service-is-shutting
 
-**3rd Party Libraries**
+**2. 3rd Party Libraries**
+
+snyk: https://www.npmjs.com/package/snyk
+
 ```
-$ npm install -g nsp
+$ sudo npm install -g nsp  # This package has been deprecated
 $ nsp check # audit package.json
 $
-$ npm install -g snyk
+$ sudo npm install -g snyk  # need to connect with github account
 $ snyk test # audit node_modules directory
-$
+$ snyk auth
+$ 
 ```
 
-09: 8
+> Sometimes updating through nsp or snyk results is very risky. So, before update you need to be make sure, first.
+
+**3. Logging**
+
+winston (recommended for production): https://www.npmjs.com/package/winston
+morgan: https://www.npmjs.com/package/morgan
+
+```
+$
+$ npm install winston
+$ npm install Morgan
+$
+$ npm install cors
+```
+
+```
+// ...
+const morgan = require('morgan');
+const cors = require('cors');
+const winston = require('winston');
+
+// ...
+app.use(morgan('combined'))
+
+// instead of console log use winston
+winston.log('info', userInput)
+
+// or if error
+winston.error('This guy is messing with us')
+
+```
+
+> before enable logging be sure what information do you need!
+
+**4. HTTPS Everywhere**
+
+> SSL/TLS Certificates: https://letsencrypt.org/
+
+> cloudflare: https://www.cloudflare.com/
+
+**5. XSS and CSRF**
+
+
+
+09: 12
