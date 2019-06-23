@@ -1122,6 +1122,28 @@ document.write('<script>alert(1)</script>')
 
 csurf: https://www.npmjs.com/package/csurf
 
+Below two exercises to get a better idea of how XSS and CSRF are used by malicious hackers:
+
+xss: https://www.hacksplaining.com/exercises/xss-stored
+
+csrf: https://www.hacksplaining.com/exercises/csrf
+
+Content Security Policy (CSP): https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP
+
+Cookies with HTTPOnly and Secure headers: https://developer.mozilla.org/en-US/docs/Web/HTTP/Cookies
+
+Cross-site scripting for dummies: https://hackernoon.com/cross-site-scripting-for-dummies-be30f76fad09
 
 
-09: 13
+**6. Code Secrets**
+
+a. Environmental Variables
+b. Commit History
+
+For more information on the previous video, I recommend these resources:
+1. If you are new to HTTP: https://code.tutsplus.com/tutorials/http-the-protocol-every-web-developer-must-know-part-1--net-31177
+2. To learn a little bit more about HTTP Headers: https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers
+3. HTTP Header Fields: https://www.tutorialspoint.com/http/http_header_fields.htm
+4. Helmet package documentation: https://github.com/helmetjs/helmet
+
+09: 15
