@@ -1200,6 +1200,14 @@ app.use(cors())
 
 **9. Data Management**
 
+bcrypt: https://www.npmjs.com/package/bcrypt
+
+scrypt: https://www.npmjs.com/package/scrypt
+
+argon2: https://www.npmjs.com/package/argon2
+
+pgcrypto - encrypt a few columns
+
 
 
 09: 19
