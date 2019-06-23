@@ -1200,7 +1200,7 @@ app.use(cors())
 
 **9. Data Management**
 
-bcrypt: https://www.npmjs.com/package/bcrypt
+bcrypt (recommended): https://www.npmjs.com/package/bcrypt
 
 scrypt: https://www.npmjs.com/package/scrypt
 
@@ -1208,6 +1208,20 @@ argon2: https://www.npmjs.com/package/argon2
 
 pgcrypto - encrypt a few columns
 
+https://blog.rangle.io/how-to-store-user-passwords-and-overcome-security-threats-in-2017/
+
+**10. Don't Trust Anyone**
+
+<img src="./images/20-do-not-trust-anyone.png">
+
+ratelimiter: https://www.npmjs.com/package/ratelimiter
+
+**11. Authentication**
 
 
-09: 19
+the free lessons: https://www.hacksplaining.com/lessons
+
+watch your hack: https://watchyourhack.com/
+
+
+09: class done and practical not done
