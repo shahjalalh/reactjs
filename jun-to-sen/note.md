@@ -1140,10 +1140,66 @@ Cross-site scripting for dummies: https://hackernoon.com/cross-site-scripting-fo
 a. Environmental Variables
 b. Commit History
 
+dotenv (default with create-react-app. No need to install): https://www.npmjs.com/package/dotenv
+
+> Never ever keep password or key in commit history
+
+To check: go to github.com and search for ```remove password```
+
+**7. Secure Headers**
+
+helmet: https://www.npmjs.com/package/helmet
+```
+$ npm install helmet --save
+
+//server.js
+const express = require('express')
+const helmet = require('helmet')
+ 
+const app = express()
+ 
+app.use(helmet())
+
+```
+
+> **helmet** secures the header for CSRF and XSS
+
 For more information on the previous video, I recommend these resources:
 1. If you are new to HTTP: https://code.tutsplus.com/tutorials/http-the-protocol-every-web-developer-must-know-part-1--net-31177
 2. To learn a little bit more about HTTP Headers: https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers
 3. HTTP Header Fields: https://www.tutorialspoint.com/http/http_header_fields.htm
 4. Helmet package documentation: https://github.com/helmetjs/helmet
 
-09: 15
+
+**8. Access Control**
+
+a. Principle of least privilege.
+
+```
+$ npm install cors --save
+$ 
+
+// in server.js
+var express = require('express')
+var cors = require('cors')
+var app = express()
+
+var whitelist = ['http://example1.com', 'http://example2.com']
+var corsOptions = {
+  origin: function (origin, callback) {
+    if (whitelist.indexOf(origin) !== -1) {
+      callback(null, true)
+    } else {
+      callback(new Error('Not allowed by CORS'))
+    }
+  }
+}
+ 
+app.use(cors())
+```
+
+**9. Data Management**
+
+
+
+09: 19
