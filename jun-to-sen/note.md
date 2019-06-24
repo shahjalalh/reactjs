@@ -1314,5 +1314,6 @@ update components/FaceRecognition.js
 ## 11: Docker
 (do not follow this chapter - this is old)
 
+Installing docker: https://docs.docker.com/install/linux/docker-ce/ubuntu/
 
-11: 04
+11: 06
