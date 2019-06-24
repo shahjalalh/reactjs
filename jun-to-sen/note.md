@@ -1298,5 +1298,9 @@ https://www.clarifai.com/ create an account. It is free. Create New Application 
 
 Now go back to http://localhost:3001 > click on, "Detect". If any error in Console, check the image url which is given. The image url should be actual.
 
+> **Do not criticize seeing someone elses code. Because you do not know under which circumstances previous developer wrote his/her code. Try to look at the code and find out where we can improve the code, is a better approach. And take the high level concept. Always start with the big picture and narrow down the view.**
 
-10: 4
+Multiple face detection changes of our SmartBrain app: https://github.com/aneagoie/smart-brain-boost/commit/09961431e44692473533cfdd8526aaa8bce5a0be
+
+
+10: 10
