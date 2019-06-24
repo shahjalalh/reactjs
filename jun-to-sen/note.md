@@ -14,9 +14,11 @@
 - https://www.hacksplaining.com/exercises/sql-injection
 - https://github.com/aneagoie/security-client-exercise
 - https://github.com/aneagoie/security-server-exercise
+- https://github.com/aneagoie/smart-brain
+- https://github.com/aneagoie/smart-brain-api
 - 
 - https://github.com/aneagoie/python-cheatsheet
-- https://github.com/aneagoie/smart-brain
+- 
 
 ## 02: SSH
 
@@ -1229,4 +1231,72 @@ https://www.owasp.org/index.php/Main_Page
 
 ## 10: Code Analysis
 
-10: 01
+https://github.com/aneagoie/smart-brain
+
+https://github.com/aneagoie/smart-brain-api
+
+https://www.clarifai.com/
+
+knex: https://www.npmjs.com/package/knex
+
+clone smart-brain and smart-brain-api
+```
+# brain- terminal-1
+$ cd smart-brain
+$ npm install
+$ npm start
+# now go to http://localhost:3001 and try to register 
+# and check chrome console
+
+
+# api-terminal-2
+$ cd smart-brain-api
+$ npm install
+$ npm start
+$ 
+
+```
+
+Create a database in postgresql - 
+```
+Database: smart-brain
+Host: 127.0.0.1
+User: 
+Pass: 
+```
+
+update smart-brain-api/server.js -> db connection
+
+create the tables and try again register through - http://localhost:3001
+```
+CREATE TABLE users (
+  id serial PRIMARY KEY,
+  name VARCHAR(100),
+  email TEXT UNIQUE NOT NULL,
+  entries BIGINT DEFAULT 0,
+  joined TIMESTAMP NOT NULL
+);
+
+CREATE TABLE login (
+  id serial PRIMARY KEY,
+  hash VARCHAR(100) NOT NULL,
+  email TEXT UNIQUE NOT NULL
+);
+```
+
+Copy image address from google search "face" - http://localhost:3001 and look at chrome console and network > imageurl > Headers, Response
+
+https://www.clarifai.com/ > Developers > Documentation 
+
+update smart-brain-api/controllers/image.js update - 
+
+```
+apiKey: 'API_KEYS'
+```
+
+https://www.clarifai.com/ create an account. It is free. Create New Application > API Keys. or, API Keys > Manage Your API Keys. Copy and paste to apiKey 
+
+Now go back to http://localhost:3001 > click on, "Detect". If any error in Console, check the image url which is given. The image url should be actual.
+
+
+10: 4
