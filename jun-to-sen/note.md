@@ -1311,3 +1311,8 @@ update components/FaceRecognition.js
 
 10: class done and practical not done
 
+## 11: Docker
+(do not follow this chapter - this is old)
+
+
+11: 04
