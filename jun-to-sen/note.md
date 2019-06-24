@@ -16,6 +16,7 @@
 - https://github.com/aneagoie/security-server-exercise
 - https://github.com/aneagoie/smart-brain
 - https://github.com/aneagoie/smart-brain-api
+- https://github.com/aneagoie/smart-brain-boost-api-dockerized
 - 
 - https://github.com/aneagoie/python-cheatsheet
 - 
@@ -1316,4 +1317,44 @@ update components/FaceRecognition.js
 
 Installing docker: https://docs.docker.com/install/linux/docker-ce/ubuntu/
 
-11: 06
+> To learn more about **bin/bash** discussed in the previous video, have a look: https://unix.stackexchange.com/questions/398543/what-are-the-contents-of-bin-bash-and-what-do-i-do-if-i-accidentally-overwrote
+
+In the project folder - 
+```
+$ touch Dockerfile
+$ 
+```
+
+https://github.com/aneagoie/smart-brain-boost-api-dockerized
+
+update /Dockerfile
+
+https://docs.docker.com/engine/reference/commandline/build/
+```
+$ docker build -t superawesomecontainer .
+$ docker run -it superawesomecontainer
+$ 
+# node -v
+# exit
+$
+$ docker run superawesomecontainer
+$ docker run -it -d superawesomecontainer
+$ sudo docker ps
+$ docker exec -it a63cfbb59 bash
+# exit
+$ docker ps
+$ docker stop a63cfbb59
+$ docker ps
+$ 
+$ docker run -it -p 3000:3000 superawesomecontainer
+# npm start
+# exit
+$ docker build -t superawesomecontainer .
+$ docker run -it -p 3000:3000 superawesomecontainer
+# npm start
+# exit
+```
+
+> docker build: https://docs.docker.com/engine/reference/builder/#usage
+
+11: 12
