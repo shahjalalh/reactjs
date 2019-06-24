@@ -1303,4 +1303,11 @@ Now go back to http://localhost:3001 > click on, "Detect". If any error in Conso
 Multiple face detection changes of our SmartBrain app: https://github.com/aneagoie/smart-brain-boost/commit/09961431e44692473533cfdd8526aaa8bce5a0be
 
 
-10: 10
+update smart-brain/App.js -> calculateFaceLocation
+
+update components/FaceRecognition.js
+
+> **Remember**: You want to find the simplest solution to the problem. Over complicating code, most of the time, is not the right answer.
+
+10: class done and practical not done
+
