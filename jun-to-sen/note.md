@@ -1357,4 +1357,52 @@ $ docker run -it -p 3000:3000 superawesomecontainer
 
 > docker build: https://docs.docker.com/engine/reference/builder/#usage
 
-11: 12
+> **Docker Compose**: Compose is a tool for defining and running multi-container Docker applications. With Compose, you use a YAML file to configure your application’s services. (https://docs.docker.com/compose/overview/)
+```
+$ touch docker-compose.yml
+$ docker-compose build
+$ docker-compose run smart-brain-api
+$  
+```
+
+> everytime you change the yml file you need to run: "docker-compose build" to re-read that file.
+
+```
+$ npm install morgan
+```
+
+update smart-brain-api's server.js
+
+```
+$ docker-compose up --build
+$ 
+```
+
+> docker-compose build: https://docs.docker.com/compose/reference/build/
+
+> docker-compose run: https://docs.docker.com/compose/reference/run/
+
+> docker-compose up: https://docs.docker.com/compose/reference/up/
+
+```
+$ docker-compose up --build
+$ 
+```
+
+> To learn more about Volumes in Docker: https://stackoverflow.com/questions/34809646/what-is-the-purpose-of-volume-in-dockerfile , https://www.linux.com/learn/docker-volumes-and-networks-compose
+
+```
+$ docker-compose down
+$ docker-compose up -d
+$ docker-compose exec smart-brain-api bash
+$ docker-compose ps
+$ psql postgres://sally:secret@localhost:5432/smart-brain-docker
+$ 
+```
+
+1. How we set up the database with username and password: (see the environment variables section) https://hub.docker.com/_/postgres/
+2. psql  command: https://www.postgresql.org/docs/9.2/static/app-psql.html
+
+build and run and go to: localhost:3001 and register
+
+11: 19
