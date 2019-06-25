@@ -1437,4 +1437,40 @@ https://stackoverflow.com/questions/41294305/docker-compose-difference-between-n
 
 ## 12: Redis
 
-12: 01
+<img src="./images/21-classification-of-nosql-databases.png">
+
+https://redis.io/download
+
+```
+$ wget http://download.redis.io/releases/redis-5.0.5.tar.gz
+$ tar xzf redis-5.0.5.tar.gz
+$ cd redis-5.0.5
+$ make
+$ cd redis-5.0.5
+$ src/redis-cli
+$ 
+```
+
+Redis Quick Start: https://redis.io/topics/quickstart
+
+> If you don't want to install Redis on your machine, you can also use https://try.redis.io/
+
+> If you encounter any errors, https://stackoverflow.com/questions/37103054/redis-installation-fails-when-running-make-command , https://stackoverflow.com/questions/8131008/issue-with-redis-install
+
+redis commands:
+```
+127.0.0.1:6379> SET name "Godzilla"
+127.0.0.1:6379> GET name
+127.0.0.1:6379> EXISTS name
+127.0.0.1:6379> DEL name
+127.0.0.1:6379> EXISTS name
+127.0.0.1:6379> GET name
+127.0.0.1:6379> SET session "Jenny"
+127.0.0.1:6379> EXPIRE session 10
+127.0.0.1:6379> GET session
+127.0.0.1:6379> GET session
+127.0.0.1:6379> 
+127.0.0.1:6379> 
+```
+
+12: 08
