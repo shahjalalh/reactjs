@@ -1403,6 +1403,34 @@ $
 1. How we set up the database with username and password: (see the environment variables section) https://hub.docker.com/_/postgres/
 2. psql  command: https://www.postgresql.org/docs/9.2/static/app-psql.html
 
-build and run and go to: localhost:3001 and register
+build and run and go to: localhost:3001 and register and check if it logged in. check the terminal,
 
-11: 19
+create a file "/postgres/Dockerfile" in side the project folder. 
+
+create a new file /postgres/tables/login.sql 
+
+create a new file /postgres/tables/users.sql 
+
+create and update /postgres/deploy_schemas.sql
+
+```
+$ docker-compose down
+$ docker-compose up --build
+$ 
+```
+
+> How to Create Tables and Insert Data into SQL Databases: http://joshualande.com/create-tables-sql
+
+> You can learn more about the **/docker-entrypoint-initdb.d** which we used in the previous video in the official: https://hub.docker.com/_/postgres/
+
+create and update postgres/seed/seed.sql
+
+https://github.com/aneagoie/smart-brain-boost-api-dockerized/commit/a7efbdd56c9fbfb29700c3398286dedd38e56166
+
+https://docs.docker.com/engine/reference/commandline/network_create/
+
+https://docs.docker.com/compose/networking/
+
+https://stackoverflow.com/questions/41294305/docker-compose-difference-between-network-and-link
+
+11: class done and practical not done
