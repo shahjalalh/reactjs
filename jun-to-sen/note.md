@@ -1434,3 +1434,7 @@ https://docs.docker.com/compose/networking/
 https://stackoverflow.com/questions/41294305/docker-compose-difference-between-network-and-link
 
 11: class done and practical not done
+
+## 12: Redis
+
+12: 01
