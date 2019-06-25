@@ -1517,3 +1517,7 @@ redis commands:
 ```
 
 12: class done and practical not done
+
+## 13: Sessions + JWT
+
+13: 01
