@@ -1469,8 +1469,51 @@ redis commands:
 127.0.0.1:6379> EXPIRE session 10
 127.0.0.1:6379> GET session
 127.0.0.1:6379> GET session
+127.0.0.1:6379> SET counter 1000 
+127.0.0.1:6379> INCRBY counter 33
+127.0.0.1:6379> GET counter
+127.0.0.1:6379> DECR counter 33
+127.0.0.1:6379> DECR counter
+127.0.0.1:6379> GET counter
 127.0.0.1:6379> 
 127.0.0.1:6379> 
 ```
 
-12: 08
+> redis data types: https://redis.io/topics/data-types
+
+```
+127.0.0.1:6379> MSET a 2 b 5
+127.0.0.1:6379> GET a
+127.0.0.1:6379> GET b
+127.0.0.1:6379> MGET a b
+127.0.0.1:6379> HMSET user id 45 name "Jonny"
+127.0.0.1:6379> HGET user id
+127.0.0.1:6379> HGET user name
+127.0.0.1:6379> HGETALL user
+127.0.0.1:6379> LPUSH 10
+127.0.0.1:6379> LPUSH ourlist 10
+127.0.0.1:6379> RPUSH ourlist "hello"
+127.0.0.1:6379> LRANGE ourlist 0 1
+127.0.0.1:6379> LPUSH ourlist 55
+127.0.0.1:6379> LRANGE ourlist 0 1
+127.0.0.1:6379> LRANGE ourlist 0 2
+127.0.0.1:6379> RPOP ourlist
+127.0.0.1:6379> LRANGE ourlist 0 2
+127.0.0.1:6379> SADD ourset 1 2 3 4 5
+127.0.0.1:6379> SMEMBERS ourset
+127.0.0.1:6379> SADD ourset 1 2 3 4
+127.0.0.1:6379> SMEMBERS ourset
+127.0.0.1:6379> SISMEMBER ourset 5
+127.0.0.1:6379> SISMEMBER ourset 20
+127.0.0.1:6379> ZADD team 50 "Wizards"
+127.0.0.1:6379> ZADD team 40 "Cavaliers"
+127.0.0.1:6379> ZRANGE team 0 1
+127.0.0.1:6379> ZADD team 1 "Boalts"
+127.0.0.1:6379> ZRANGE team 0 2
+127.0.0.1:6379> ZRANK team "Wizards"
+127.0.0.1:6379> 
+127.0.0.1:6379> 
+127.0.0.1:6379> 
+```
+
+12: class done and practical not done
