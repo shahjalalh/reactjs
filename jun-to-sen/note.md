@@ -1525,6 +1525,40 @@ Cookie based authentication and token based authentication is a complex topic wi
 2. https://stackoverflow.com/questions/17000835/token-authentication-vs-cookies
 3. https://scotch.io/bar-talk/why-jwts-suck-as-session-tokens
 
+https://jwt.io/
+
+https://github.com/auth0/node-jsonwebtoken
+
+https://github.com/aneagoie/smart-brain-boost-api-dockerized
+
+https://github.com/aneagoie/smart-brain-api
+
+https://github.com/aneagoie/smart-brain
+
+https://reactstrap.github.io/
+
+installing in **smart-brain**
+```
+$ npm install --save bootstrap
+$ npm install --save reactstrap
+```
+
+https://tachyons.io/components/
+
+https://reactstrap.github.io/
+
+There are many times you may want to use a callback function when using setState(). You can read up on the topic a little more in detail here:
+1. https://medium.com/@voonminghann/when-to-use-callback-function-of-setstate-in-react-37fff67e5a6c
+2. https://stackoverflow.com/questions/42038590/when-to-use-react-setstate-callback
+
+https://www.w3schools.com/charsets/ref_html_entities_4.asp
+
+knexjs: https://knexjs.org/
+
+postman: https://www.getpostman.com/
+
+https://github.com/auth0/node-jsonwebtoken
 
 
-13: 04
+
+13: 24
