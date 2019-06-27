@@ -1711,4 +1711,7 @@ $ cd ~/rankly
 $ 
 ```
 
-14: 11
+To learn more about IAM policies, you can check out the official documentation from Amazon(https://docs.aws.amazon.com/IAM/latest/UserGuide/access_policies_manage.html), or this documentation from the Serverless framework(https://serverless.com/framework/docs/providers/aws/guide/iam/)
+
+
+14: 12
