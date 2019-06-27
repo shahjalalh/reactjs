@@ -1599,3 +1599,7 @@ https://github.com/aneagoie/smart-brain-boost-api
 https://github.com/aneagoie/smart-brain-boost-api-dockerized
 
 13: class done and practical not done
+
+## 14: AWS
+
+14: 01
