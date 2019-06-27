@@ -1602,4 +1602,32 @@ https://github.com/aneagoie/smart-brain-boost-api-dockerized
 
 ## 14: AWS
 
-14: 01
+Top 3 web services in the market - 
+1. Amazon Web Services (AWS)
+2. Microsoft Azure
+3. Google Cloud Platform
+
+> AWS is the market leader in **IaaS** and **PaaS**
+
+AWS Services: https://aws.amazon.com/
+
+Most popular (important) amazon web services: 
+
+1. **S3**: Plain Storage (HDD - limit approx. 5GB) [https://aws.amazon.com/s3/]
+2. **EC2**: Basic server (Debian/Ubuntu) [https://aws.amazon.com/ec2/]
+3. **Lambda**: ```serverless``` With Lambda functions, you can run code for virtually any type of application or backend service - all with zero administration. [https://aws.amazon.com/lambda/]
+4. **CloudFront**: Speed up distribution of static files. Content Delivery Network (CDN) [https://aws.amazon.com/cloudfront/]
+5. **DynamoDB**: Fast, no sql database with scaling [https://aws.amazon.com/dynamodb/]
+
+> Content Delivery Network (CDN) is the best, **if the application users exist in different region of the world**. CDN helps to distribute the static files (css, js, images etc.).
+<img src="./images/22-aws-architecture-concept.png">
+
+### Amazon Lambda (```serverless```)
+
+```
+function(){
+  console.log("I am so fancy")
+}
+```
+
+14: 05
