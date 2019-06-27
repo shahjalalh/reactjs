@@ -1560,5 +1560,42 @@ postman: https://www.getpostman.com/
 https://github.com/auth0/node-jsonwebtoken
 
 
+https://www.npmjs.com/package/redis
 
-13: 24
+```
+$ npm install redis
+$ sudo docker-container up
+```
+
+In different terminal - to run local redis
+```
+$ cd redis-4.0.9
+$ src/redis-server
+```
+
+To run docker redis - 
+```
+$ docker-compose exec redis redis-cli
+$ 
+```
+
+> For more information about Bearer Token: https://security.stackexchange.com/questions/108662/why-is-bearer-required-before-the-token-in-authorization-header-in-a-http-re , https://auth0.com/blog/refresh-tokens-what-are-they-and-when-to-use-them/
+
+
+To continue to practice this skill, I have a few tasks for you. Just like in the real world, there won't be a solution file for you at the end of this one. It either works or it doesn't. Using all you have learned up to this point, using all of your resources (including our community on Discord), see if you can implement these features:
+
+- Task 1: Add pet  and age  column to the database and allow users to update these fields on their profile.
+- Task 2: Implement token flow as we have done so far for /register  end point as well.
+- Task 3: Add Sign out functionality where you revoke the token when a user signs out of the app
+
+- Task 4 (Bonus): You may notice a lot of repeated code (especially when it comes to fetch()). How can you improve this? Try to refactor the code and perhaps also improve the logic to make the app even better!
+
+You can find the github repositories of the code we have worked on up to this point below:
+
+https://github.com/aneagoie/smart-brain-boost/commits/master
+
+https://github.com/aneagoie/smart-brain-boost-api
+
+https://github.com/aneagoie/smart-brain-boost-api-dockerized
+
+13: class done and practical not done
