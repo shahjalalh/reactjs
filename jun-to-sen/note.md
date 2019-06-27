@@ -17,6 +17,7 @@
 - https://github.com/aneagoie/smart-brain
 - https://github.com/aneagoie/smart-brain-api
 - https://github.com/aneagoie/smart-brain-boost-api-dockerized
+- https://github.com/aneagoie/smart-brain-boost-lambda
 - 
 - https://github.com/aneagoie/python-cheatsheet
 - 
@@ -1611,18 +1612,20 @@ Top 3 web services in the market -
 
 AWS Services: https://aws.amazon.com/
 
+> Free Tier: https://aws.amazon.com/free/
+
 Most popular (important) amazon web services: 
 
 1. **S3**: Plain Storage (HDD - limit approx. 5GB) [https://aws.amazon.com/s3/]
 2. **EC2**: Basic server (Debian/Ubuntu) [https://aws.amazon.com/ec2/]
-3. **Lambda**: ```serverless``` With Lambda functions, you can run code for virtually any type of application or backend service - all with zero administration. [https://aws.amazon.com/lambda/]
+3. **Lambda**: (with ```serverless```) With Lambda functions, you can run code for virtually any type of application or backend service - all with zero administration. [https://aws.amazon.com/lambda/]
 4. **CloudFront**: Speed up distribution of static files. Content Delivery Network (CDN) [https://aws.amazon.com/cloudfront/]
 5. **DynamoDB**: Fast, no sql database with scaling [https://aws.amazon.com/dynamodb/]
 
 > Content Delivery Network (CDN) is the best, **if the application users exist in different region of the world**. CDN helps to distribute the static files (css, js, images etc.).
 <img src="./images/22-aws-architecture-concept.png">
 
-### Amazon Lambda (```serverless```)
+### Amazon Lambda (with ```serverless```)
 
 ```
 function(){
@@ -1630,4 +1633,82 @@ function(){
 }
 ```
 
-14: 05
+> The cloud provider creates a container(like docker container) runs the code using function.
+
+> serverless: https://serverless.com/
+
+AWS Lambda uses the async version of the hello function rather than the callback. It instead looks something like this:
+```
+'use strict'; 
+module.exports.hello = async (event, context) => {  
+    return {    
+        statusCode: 200,    
+        body: JSON.stringify({      
+            message: 'Go Serverless v1.0! Your function executed successfully!',      
+            input: event,    
+        }),  
+    };    
+// Use this code if you don't use the http event with the LAMBDA-PROXY integration  
+// return { message: 'Go Serverless v1.0! Your function executed successfully!', event };
+};
+```
+Underneath it all, it is still doing the same thing.
+
+### serverless
+
+In the terminal -
+```
+$ sudo npm install -g serverless
+$ serverless
+$ serverless create --help
+$ 
+$ sls
+$ sls create --help
+$ 
+$ mkdir rankly & cd rankly
+$ sls create --template aws-nodejs
+```
+
+inside /rankly/handler.js
+```
+'use strict'; 
+module.exports.hello = async (event, context) => {  
+    return {    
+        statusCode: 200,    
+        body: JSON.stringify({      
+            message: 'Go Serverless v1.0! Your function executed successfully!',      
+            input: event,    
+        }),  
+    };    
+// Use this code if you don't use the http event with the LAMBDA-PROXY integration  
+// return { message: 'Go Serverless v1.0! Your function executed successfully!', event };
+};
+```
+
+> /rankly/serverless.yml file contains a very good documentation with code.
+
+<img src="./images/23-serverless-create.png">
+
+Go to AWS dashboard > search "iam" > Click on "Users" > "Add User" > 
+
+```
+User Name*: rankly-lambda 
+[select] Programmatic access 
+[      ] AWS Management Console access
+```
+Next > select "Attach existing policies directly" > Filter: function > click "Next" > create "Create User" (copy the "Access key ID" and Secret access key)
+
+
+
+In the terminal -
+```
+$ sls config credentials --provider aws --key Access_key_ID --secret Secret_access_key
+$ cd ~/.aws
+$ ls 
+$ nano credentials
+$ 
+$ cd ~/rankly
+$ 
+```
+
+14: 11
