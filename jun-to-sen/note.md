@@ -1727,4 +1727,4 @@ $
 $ sls deploy
 ```
 
-14: 14
+14: class done and practical not done
