@@ -1731,4 +1731,57 @@ $ sls deploy
 
 ## 15: Performance Part 3
 
-15:01
+### CDNs: Cloudflare
+<img src="./images/24-cloudflare-cdn.png">
+
+> Most popular CDN's: https://www.cloudflare.com/ , https://aws.amazon.com/cloudfront/ , https://azure.microsoft.com/en-in/services/cdn/
+
+### GZIP 
+
+File types support GZIP: https://www.cdnplanet.com/guides/compression/
+
+> You can go to the network tab and check what kind of encoding you have in the server: <img src="./images/25-content-encoding-gzip.png">
+
+In server.js
+```
+const compression = require('compression')
+const express = require('express')
+
+const app = express()
+app.use(compression()) // use this
+```
+
+> Enable ```gzip on;``` in ngnix settings file
+
+> some aulternative of GZIP - https://github.com/google/brotli (it does 20% more compression then GZIP but all browser and server yet to support) <img src="./images/26-content-encoding-brotli.png">
+
+### Database Scaling
+
+How to scale database!!!
+1. Identify Inefficient Queries
+2. Increase Memory
+3. Vertical Scaling (Redis, Memchached)
+4. Sharding
+5. More Databases
+6. Databases type
+
+**1. Identify Inefficient Queries:** Use too many joins, asking too much information but needs a very little is bad. Only request what you absoutely need and finally use indices to improve the query of the data. Example - ``` CREATE INDEX idx_name ON table_name (column_name); ``` Storege is very slow.
+
+**2. Increase Memory:** Add addition memory (RAM) and configure in ```config``` file.
+
+**3. Vertical Scaling (Redis, Memchached):** Cache the response in Redis.
+<img src="./images/27-vertical-scaling-with-redis.png">
+
+**4. Sharding:** expremely hard to do and a very tough problem. Breaking down the data in different database.
+
+**5. More Databases:** add multiple databases and distribute the requests to different databases to distribute the load. Postgres is preconfigured with it or you can use more load balancer to distrubute the request.
+
+**6. Databases type:** for social network Graph database is useful. for blog relational database. <img src="./images/28-database-types.png">
+
+### Caching
+
+Cache the response in Redis. Use Redis between the server and the database so that same request can be respond from cache (Redis).
+<img src="./images/27-vertical-scaling-with-redis.png">
+
+
+15:08
