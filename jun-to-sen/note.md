@@ -1,3 +1,8 @@
+## Index
+
+### Jun-to-Sen
+1. ..
+
 ## 01: Introduction 
 
 - https://aneagoie.github.io/keiko-corp
@@ -1713,5 +1718,13 @@ $
 
 To learn more about IAM policies, you can check out the official documentation from Amazon(https://docs.aws.amazon.com/IAM/latest/UserGuide/access_policies_manage.html), or this documentation from the Serverless framework(https://serverless.com/framework/docs/providers/aws/guide/iam/)
 
+after configuring in serverless.yml and serverless.yml - 
+```
+$ sls deploy
+$ sls invoke --function rank  ## this cost you money
+$ sls invoke local --function rank  ## simulate aws lamda locally and this cost nothing
+$
+$ sls deploy
+```
 
-14: 12
+14: 14
