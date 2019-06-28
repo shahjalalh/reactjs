@@ -1783,5 +1783,8 @@ How to scale database!!!
 Cache the response in Redis. Use Redis between the server and the database so that same request can be respond from cache (Redis).
 <img src="./images/27-vertical-scaling-with-redis.png">
 
+Uses Examples of caching - 
+* redis for caching database queries.
+* redis for caching expensive api calls which takes long time
 
-15:08
+15:09
