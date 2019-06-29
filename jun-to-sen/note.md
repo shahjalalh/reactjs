@@ -1903,4 +1903,30 @@ https://github.com/aneagoie/robofriends-ci
 
 ## 10: Career Of A Web Developer
 
-10: 02
+> The best developers solve their own problem by themselves with the tools and docs they have.
+ 
+> Room big. Apply for hard job. Do not apply the job, you are 100% qualified for. Dream big.
+
+> As there is reguler way of doing things, then there is the smart way.
+
+### Great showcase( 2 or 3 is better)
+1. github (contribute open soure project)
+2. Website (should have own website. use free theme to create own website)
+3. 1~2 Big Projects (with frontend, backend, db, docker, load balancing, caching etc.)
+4. Blog (example - medium post. Write a blog and post to a publisher like freecodecamp in medium)
+
+### Free themes:
+- https://www.creative-tim.com
+- http://www.mashup-template.com/
+- https://kk.org/
+
+### Top medium publishers -
+- https://medium.com/free-code-camp
+- https://hackernoon.com/
+- https://towardsdatascience.com/
+
+> https://www.freecodecamp.org/forum/t/how-can-i-submit-an-story-to-free-code-camps-medium-publication/66687/2
+
+> **Particapate a hackathon or contest create more value**
+
+10: class done
