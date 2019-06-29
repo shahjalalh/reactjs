@@ -23,6 +23,7 @@
 - https://github.com/aneagoie/smart-brain-api
 - https://github.com/aneagoie/smart-brain-boost-api-dockerized
 - https://github.com/aneagoie/smart-brain-boost-lambda
+- https://github.com/aneagoie/load-balancer-exercise
 - 
 - https://github.com/aneagoie/python-cheatsheet
 - 
@@ -1787,4 +1788,60 @@ Uses Examples of caching -
 * redis for caching database queries.
 * redis for caching expensive api calls which takes long time
 
-15:09
+To learn more about how caching works and the two headers: Etag and Cache Control, I recommend you read further using these resources:
+
+1. https://devcenter.heroku.com/articles/increasing-application-performance-with-http-cache-headers
+2. https://developers.google.com/web/fundamentals/performance/optimizing-content-efficiency/http-caching
+3. https://www.freecodecamp.org/news/the-hidden-components-of-web-caching-970854fe2c49/
+
+### Load Balancing
+
+Nginx is very good for load balancing. 
+<img src="./images/29-load-balancing-with-nginx.png">
+or,
+
+<img src="./images/30-load-balancing-cdn-nginx.png" />
+
+
+### Nginx
+
+It is less likely you need to implement load balancer by yourself. Most of the infrastructure provider have load blancer already implemented. like - https://www.digitalocean.com/products/load-balancer/ , https://aws.amazon.com/elasticloadbalancing/ etc.
+
+https://github.com/aneagoie/load-balancer-exercise
+
+**nginx.conf**
+- ```worker_processes```: number of CPU's
+- ```worker_connections```: max number of simultinous connection open by a worker process
+- ```http```: pass the request to load balancer that we have
+- ```location```: cache the static files like - css, js, png etc.
+
+If you build load balancer (nginx) or caching (redis) with docker by yourself, most likely it will run in the same machine. Better to have different machine for load balancer and caching. 
+```
+$ docker-compose up --build
+$ 
+```
+
+Load testing tools - 
+- Python: https://locust.io/
+- JavaScript(npm): https://www.npmjs.com/package/loadtest
+- Java: https://jmeter.apache.org/
+- JavaScript(npm): https://artillery.io/
+- JavaScript(npm): https://github.com/JoeDog/siege
+- JavaScript(npm): https://github.com/giltene/wrk2
+
+Example: JavaScript(npm): https://www.npmjs.com/package/loadtest
+```
+$ sudo npm install -g loadtest
+$ loadtest -t 5 -c 100 --rps 100 http://localhost:80
+```
+
+> ```Mean latency``` is lower in without load balancer. Because the load balancers in docker is running same machine. So all the load balancers sharing the same resource. Lower ```Mean latency``` is good. So, better idea to use load balancer or caching in different machine, may be the cloud provider like - https://www.digitalocean.com/products/load-balancer/ , https://aws.amazon.com/elasticloadbalancing/ <img src="./images/31-load-balancing-test.png">
+
+To learn more about the NGINX config file have a look at:  https://nginx.org/en/docs/ and https://www.linode.com/docs/web-servers/nginx/how-to-configure-nginx/
+
+> Parformance optimization reference - <img src="./images/32-performance-optimization-ref.png">
+
+Typical Architectural Design:
+<img src="./images/33-typical-architectural-design.png">
+
+15: class done and practical not done
