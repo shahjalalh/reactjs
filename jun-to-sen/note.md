@@ -3,6 +3,19 @@
 ## Jun-to-Sen
 1. ..
 
+## Web-Zero-to-Mastery
+10. Career Of A Web Developer
+14. Command Line
+15. Developer Environment
+16. Git + Github + Open Source Projects
+17. A Day In The Life Of A Developer
+21. Backend Basics
+22. APIs
+28. Production + Deployment
+29. Where To Go From Here
+
+## Jun-to-Sen
+
 ## 01: Introduction 
 
 - https://aneagoie.github.io/keiko-corp
@@ -1885,3 +1898,9 @@ https://github.com/aneagoie/robofriends-ci
 > Start with why! Learn, if the tool worth your time and the project. 
 
 17: class done
+
+## Web-Zero-to-Mastery
+
+## 10: Career Of A Web Developer
+
+10: 02
