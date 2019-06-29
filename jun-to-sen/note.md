@@ -24,6 +24,7 @@
 - https://github.com/aneagoie/smart-brain-boost-api-dockerized
 - https://github.com/aneagoie/smart-brain-boost-lambda
 - https://github.com/aneagoie/load-balancer-exercise
+- https://github.com/aneagoie/robofriends-ci
 - 
 - https://github.com/aneagoie/python-cheatsheet
 - 
@@ -1862,4 +1863,13 @@ create and update /.circleci/config.yml
 
 https://circleci.com/docs/2.0/getting-started/#adding-a-yml-file
 
-16: 07:04
+Go to https://circleci.com/signup/ and "Sign up with GitHub"
+
+https://github.com/aneagoie/robofriends-ci
+
+> Standard CICD pipeline -
+<img src="./images/35-standard-cicd-pipeline.png">
+
+> A senior developer is somebody who has big picture view of how we can make this flow from writing code from developers laptop to putting into production. If you able to master this you will able to manage teams and manage projects.
+
+16: class done and practical not done
