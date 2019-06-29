@@ -1876,4 +1876,12 @@ https://github.com/aneagoie/robofriends-ci
 
 ## 17: Extra Bits
 
-17: 01
+> **Simplicity vs Complexity**: Always choose **simplicity** over complexity. Always accept question from others. Try to minimize the complexity of your code.  
+
+> Adding more libraries is not good. Think first why do I need this library. Adding is easy but cleaning is always harder.
+
+> Great people learn always. This is a contest with yourself. Learn how to learn. Learning never stops because technology always evolving. 
+
+> Start with why! Learn, if the tool worth your time and the project. 
+
+17: class done
