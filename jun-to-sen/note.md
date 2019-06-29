@@ -1873,3 +1873,7 @@ https://github.com/aneagoie/robofriends-ci
 > A senior developer is somebody who has big picture view of how we can make this flow from writing code from developers laptop to putting into production. If you able to master this you will able to manage teams and manage projects.
 
 16: class done and practical not done
+
+## 17: Extra Bits
+
+17: 01
