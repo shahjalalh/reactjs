@@ -1848,4 +1848,18 @@ Typical Architectural Design:
 
 ## 16: CICD
 
-16: 01
+> Continous Deployment(CD) is one step farther is Continous Delivery(CD) 
+<img src="./images/34-CICD.png">
+
+### CICD tools-
+1. Own managed CI servers: https://jenkins.io/
+2. Hosted CI servers: https://travis-ci.org/
+3. Hosted CI servers: https://circleci.com/
+
+https://github.com/aneagoie/robofriends-testing
+
+create and update /.circleci/config.yml
+
+https://circleci.com/docs/2.0/getting-started/#adding-a-yml-file
+
+16: 07:04
