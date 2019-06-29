@@ -1845,3 +1845,7 @@ Typical Architectural Design:
 <img src="./images/33-typical-architectural-design.png">
 
 15: class done and practical not done
+
+## 16: CICD
+
+16: 01
