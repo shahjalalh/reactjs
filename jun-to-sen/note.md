@@ -1933,4 +1933,33 @@ https://github.com/aneagoie/robofriends-ci
 
 ## 14: Command Line
 
-14: 01
+### Using the terminal
+
+```
+$ ls
+$ pwd
+$ cd 
+$ cd ..
+$ clear
+$ cd / # root director
+$ cd ~
+$ cd folder/folder/test
+$ mkdir name
+$ open folder             # mac connand
+$ touch index.html
+$ open index.html         # mac connand
+$ open -a “Sublime Text”  # mac connand
+$ open .                  # mac connand
+$ mv index.html about.html
+# up and down arrow to go to previous commands
+$ rm file
+$ rm -r folder
+```
+
+> For comparison between Windows vs Mac && Linux: https://skimfeed.com/blog/windows-command-prompt-ls-equivalent-dir/
+
+14: class done
+
+## 15: Developer Environment
+
+15: 01
