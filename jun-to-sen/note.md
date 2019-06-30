@@ -1,5 +1,12 @@
 # To-Sen
 
+In order to stay up to date with the industry and make sure that I am on the game. 
+1. Check [Medium top 10 articles of the day](https://medium.com/browse/top) and read any ones related to tech
+2. Read the top articles (over 100 upvotes) that interest you on [Hacker News](https://news.ycombinator.com/)
+3. Listen to a daily podcast on [Software Engineering Daily](https://softwareengineeringdaily.com/)
+4. Check out cool products for inspiration and developer tools with over 200 upvotes on [Product Hunt](https://www.producthunt.com/) from the previous day.
+5. Sign up for the [Javascript weekly](https://javascriptweekly.com/) newsletter and read through that every Friday.
+
 ## Jun-to-Sen
 1. ..
 
@@ -2008,6 +2015,7 @@ Alternatively, if you are using the bash shell you can check out this link to se
 $ git clone https://github.com/mercy/background-generator.git
 $ cd background-generator
 $ git status
+$ git diff
 $ git add .
 $ git commit -m "adding starting project"
 $ git push -u origin master
@@ -2022,6 +2030,63 @@ $
 https://github.com/zero-to-mastery/start-here-guidelines
 https://github.com/zero-to-mastery
 
-> **Fork**: means you want to copy this project so that it shows up in your github profile
+> **fork**: means you want to copy this project and work, so that it shows up in your github profile.
+> **clone**: means you want only copy the project and do not want to shows up in your github profile.
 
-16: 06:06
+> So for any github open source project first **fork** from website and then **clone** as normal way and then create a **new branch** before start working. 
+
+> Delete the working branch (except - master and development) after merge to the master
+
+You may have noticed something while watching the previous video...**Do you have to always fork the Open Source project every time master get's updated? Luckily for you, there is a easy way to always make sure your fork has the most up to date version of the original project**. Here is how:
+
+Once you are in your forked project directory in your command prompt....
+
+1. Type ```git remote -v``` and press **Enter**. You'll see the current configured remote repository for your fork.
+```
+$ git remote -v
+$ origin  https://github.com/YOUR_USERNAME/YOUR_FORK.git (fetch)
+$ origin  https://github.com/YOUR_USERNAME/YOUR_FORK.git (push)
+```
+2. Type ```git remote``` add ```upstream```, and then paste the URL you would copy from the original repository if you were to do a git clone. Press **Enter**. It will look like this:
+```
+$ git remote add upstream https://github.com/zero-to-mastery/PROJECT_NAME.git
+```
+3. To verify the new upstream repository you've specified for your fork, type ```git remote -v``` again. You should see the URL for your fork as origin, and the URL for the original repository as ```upstream```.
+```
+$ git remote -v
+$ origin    https://github.com/YOUR_USERNAME/YOUR_FORK.git (fetch)
+$ origin    https://github.com/YOUR_USERNAME/YOUR_FORK.git (push)
+$ upstream  https://github.com/ORIGINAL_OWNER/ORIGINAL_REPOSITORY.git (fetch)
+$ upstream  https://github.com/ORIGINAL_OWNER/ORIGINAL_REPOSITORY.git (push)
+```
+
+Now, you can keep your fork synced with the upstream repository with a few Git commands. 
+
+One simple way is to do the below command from the master of your forked repository: 
+```
+$ git pull upstream master
+```
+Or you can follow along another method here: "Syncing a fork."- https://help.github.com/en/articles/syncing-a-fork
+
+> A place for developers to show recruiters they are available for hire: https://zero-to-mastery.github.io/ZtM-Job-Board/
+
+One of the open source projects started by students is: https://zero-to-mastery.github.io/resources/
+
+16: class done
+
+## 17: A Day In The Life Of A Developer
+
+https://medium.com/zerotomastery/web-developer-monthly-july-2018-513e02f15fb6
+
+In order to stay up to date with the industry and make sure that I am on top of the game. 
+1. Check [Medium top 10 articles of the day](https://medium.com/browse/top) and read any ones related to tech
+2. Read the top articles (over 100 upvotes) that interest you on [Hacker News](https://news.ycombinator.com/)
+3. Listen to a daily podcast on [Software Engineering Daily](https://softwareengineeringdaily.com/)
+4. Check out cool products for inspiration and developer tools with over 200 upvotes on [Product Hunt](https://www.producthunt.com/) from the previous day.
+5. Sign up for the [Javascript weekly](https://javascriptweekly.com/) newsletter and read through that every Friday. 
+
+17: class done
+
+## 21: Backend Basics
+
+21: 01
