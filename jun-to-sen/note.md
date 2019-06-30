@@ -2089,4 +2089,25 @@ In order to stay up to date with the industry and make sure that I am on top of 
 
 ## 21: Backend Basics
 
-21: 01
+21: class done
+
+## 22. APIs
+
+The Star Wars API: https://swapi.co/
+
+For finding an API when I have an idea for a project: https://apilist.fun/
+
+There is another fun API that I think you will really like: [IBM Watson](https://www.ibm.com/watson/services/speech-to-text/).
+
+Api example: https://www.twilio.com/docs/sms/send-messages
+
+https://api.github.com/
+
+https://www.ibm.com/watson/services/speech-to-text/
+
+22: class done
+
+## 28: Production + Deployment
+
+
+28: 01
