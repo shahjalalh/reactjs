@@ -1993,4 +1993,35 @@ My recommended packages to install (command + shift +p):
 
 ## 16: Git + Github + Open Source Projects
 
-16: 01
+https://searchsecurity.techtarget.com/definition/sudo-superuser-do
+
+A fellow student @antonykidis created this great diagram and cheat sheet for the community to help you with all of the steps we followed in the previous videos. Have a look: 
+- Part 1: https://github.com/antonykidis/GitHub-guide/blob/master/Git%20and%20GitHub.pdf
+- Part 2: https://github.com/antonykidis/GitHub-guide/blob/master/Git%20and%20GitHub2.pdf
+- Part 3: https://github.com/antonykidis/GitHub-guide/blob/master/GitHubGuidePart3.pdf
+
+Alternatively, if you are using the bash shell you can check out this link to see how you can get the github branch to display in your prompt: https://gist.github.com/justintv/168835 , https://www.quora.com/What-is-bash_profile-and-what-is-its-use 
+
+> Using git desktop is bad practice. Try to use terminal, is professional.
+
+```
+$ git clone https://github.com/mercy/background-generator.git
+$ cd background-generator
+$ git status
+$ git add .
+$ git commit -m "adding starting project"
+$ git push -u origin master
+$ git checkout -b little-feature
+$ 
+```
+
+> Before solve the conflict talk to the developer if he/she keep the change.
+
+### Contributing to Open Source
+
+https://github.com/zero-to-mastery/start-here-guidelines
+https://github.com/zero-to-mastery
+
+> **Fork**: means you want to copy this project so that it shows up in your github profile
+
+16: 06:06
