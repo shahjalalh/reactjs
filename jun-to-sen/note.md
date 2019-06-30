@@ -1962,4 +1962,35 @@ $ rm -r folder
 
 ## 15: Developer Environment
 
-15: 01
+### Sublime Text 3
+Recommended resources to get your Sublime Text personalized:
+1. https://github.com/equinusocio/material-theme
+2. https://github.com/voronianski/oceanic-next-color-scheme
+3. https://packagecontrol.io/
+4. https://scotch.io/bar-talk/best-of-sublime-text-3-features-plugins-and-settings
+
+My recommended packages to install (command + shift +p):
+- Babel
+- SidebarEnhancements
+- A File Icon
+- GitGutter
+- BracketHighlighter
+
+### VS Code
+- https://github.com/viatsko/awesome-vscode
+- https://marketplace.visualstudio.com/items?itemName=WallabyJs.quokka-vscode
+- https://marketplace.visualstudio.com/items?itemName=SirTori.indenticator
+
+### Terminal
+- https://www.maketecheasier.com/8-useful-and-interesting-bash-prompts/
+- Linux, Mac, Windows: https://fishshell.com/
+- Mac users: https://ohmyz.sh/
+- Mac users: http://sourabhbajaj.com/mac-setup/iTerm/README.html
+- Mac users (recommended): https://www.iterm2.com/index.html
+- Mac users: http://osxdaily.com/2013/02/05/improve-terminal-appearance-mac-os-x/
+
+15: class done and practical not done
+
+## 16: Git + Github + Open Source Projects
+
+16: 01
