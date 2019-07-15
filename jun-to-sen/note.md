@@ -8,7 +8,27 @@ In order to stay up to date with the industry and make sure that I am on the gam
 5. Sign up for the [Javascript weekly](https://javascriptweekly.com/) newsletter and read through that every Friday.
 
 ## Jun-to-Sen
-1. ..
+1. [Introduction](#introduction)
+2. SSH
+3. Performance Part 1
+4. React + Redux + Module Bundling
+5. Performance Part 2
+6. Testing
+7. TypeScript
+8. SPA vs Server Side Rendering
+9. Security
+10. Code Analysis
+11. Docker
+12. Redis
+13. Sessions + JWT
+14. AWS
+15. Performance Part 3
+16. CI/CD
+17. Extra Bits
+18. The Final Video
+19. Extras: For Windows Users
+20. Bonus
+
 
 ## Web-Zero-to-Mastery
 10. Career Of A Web Developer
@@ -23,7 +43,7 @@ In order to stay up to date with the industry and make sure that I am on the gam
 
 ## Jun-to-Sen
 
-## 01: Introduction 
+<a id="introduction">## 01: Introduction</a>
 
 - https://aneagoie.github.io/keiko-corp
 - https://github.com/aneagoie/keiko-corp
