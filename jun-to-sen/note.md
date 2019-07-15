@@ -1955,7 +1955,7 @@ https://github.com/aneagoie/robofriends-ci
 
 ## Web-Zero-to-Mastery
 
-## <a id="#career-of-a-web-developer">10: Career Of A Web Developer</a>
+## <a id="career-of-a-web-developer">10: Career Of A Web Developer</a>
 
 > The best developers solve their own problem by themselves with the tools and docs they have.
  
@@ -1985,7 +1985,7 @@ https://github.com/aneagoie/robofriends-ci
 
 10: class done
 
-## <a id="#command-line">14: Command Line</a>
+## <a id="command-line">14: Command Line</a>
 
 ### Using the terminal
 
@@ -2014,7 +2014,7 @@ $ rm -r folder
 
 14: class done
 
-## <a id="#developer-environment">15: Developer Environment</a>
+## <a id="developer-environment">15: Developer Environment</a>
 
 ### Sublime Text 3
 Recommended resources to get your Sublime Text personalized:
@@ -2045,7 +2045,7 @@ My recommended packages to install (command + shift +p):
 
 15: class done and practical not done
 
-## <a id="#git-github-open-source-projects">16: Git + Github + Open Source Projects</a>
+## <a id="git-github-open-source-projects">16: Git + Github + Open Source Projects</a>
 
 https://searchsecurity.techtarget.com/definition/sudo-superuser-do
 
@@ -2121,7 +2121,7 @@ One of the open source projects started by students is: https://zero-to-mastery.
 
 16: class done
 
-## <a id="#a-day-in-the-life-of-a-developer">17: A Day In The Life Of A Developer</a>
+## <a id="a-day-in-the-life-of-a-developer">17: A Day In The Life Of A Developer</a>
 
 https://medium.com/zerotomastery/web-developer-monthly-july-2018-513e02f15fb6
 
@@ -2134,11 +2134,11 @@ In order to stay up to date with the industry and make sure that I am on top of 
 
 17: class done
 
-## <a id="#backend-basics">21: Backend Basics</a>
+## <a id="backend-basics">21: Backend Basics</a>
 
 21: class done
 
-## <a id="#apis">22. APIs</a>
+## <a id="apis">22. APIs</a>
 
 The Star Wars API: https://swapi.co/
 
@@ -2154,14 +2154,15 @@ https://www.ibm.com/watson/services/speech-to-text/
 
 22: class done
 
-## <a id="#production-deployment">28: Production + Deployment</a>
+## <a id="production-deployment">28: Production + Deployment</a>
 
 Heroku Deploying with Git: https://devcenter.heroku.com/articles/git
 
+Try to avoid **nginx (/usr/share/nginx/html)** and **Apache (/var/www/)** default location. Configure the Nginx and Apache accordingly.
 
 28: class not done and practical not done
 
-## <a id="#where-to-go-from-here">29: Where To Go From Here</a>
+## <a id="where-to-go-from-here">29: Where To Go From Here</a>
 
 These are the best resources I have found on interviewing and landing a job/career as a developer. I hope you find them useful:
 
