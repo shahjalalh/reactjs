@@ -9,22 +9,22 @@ In order to stay up to date with the industry and make sure that I am on the gam
 
 ## Jun-to-Sen
 1. [Introduction](#introduction)
-2. SSH
-3. Performance Part 1
-4. React + Redux + Module Bundling
-5. Performance Part 2
-6. Testing
-7. TypeScript
-8. SPA vs Server Side Rendering
-9. Security
-10. Code Analysis
-11. Docker
-12. Redis
-13. Sessions + JWT
-14. AWS
-15. Performance Part 3
-16. CI/CD
-17. Extra Bits
+2. [SSH](#ssh)
+3. [Performance Part 1](#performance-part-1)
+4. [React + Redux + Module Bundling](#react-redux-module-bundling)
+5. [Performance Part 2](#performance-part-2)
+6. [Testing](#testing)
+7. [TypeScript](#typeScript)
+8. [SPA vs Server Side Rendering](#spa-vs-server-side-rendering)
+9. [Security](#security)
+10. [Code Analysis](#code-analysis)
+11. [Docker](#docker)
+12. [Redis](#redis)
+13. [Sessions + JWT](#sessions-jwt)
+14. [AWS](#aws)
+15. [Performance Part 3](#performance-part-3)
+16. [CI/CD](#ci-cd)
+17. [Extra Bits](#extra-bits)
 18. The Final Video
 19. Extras: For Windows Users
 20. Bonus
@@ -69,7 +69,7 @@ In order to stay up to date with the industry and make sure that I am on the gam
 - https://github.com/aneagoie/python-cheatsheet
 - 
 
-## 02: SSH
+## <a id="ssh">02: SSH</a>
 
 ssh command
 ```
@@ -184,7 +184,7 @@ $ ssh -tt pi@10.2.1.12 ssh -tt pi@10.2.1.13 .......
  
 02: class done and practical done
 
-## 03: Performance Part 1
+## <a id="performance-part-1">03: Performance Part 1</a>
 
 ### Keys to performance
 
@@ -272,7 +272,7 @@ https://stackoverflow.com/questions/10808109/script-tag-async-defer
 
 03: class done and practical done
 
-## 04: React + Redux + Module Bundling
+## <a id="react-redux-module-bundling">04: React + Redux + Module Bundling</a>
 
 Install [create-react-app](https://www.npmjs.com/package/create-react-app) with npm - 
 ```
@@ -540,7 +540,7 @@ The 3 principals of redux:
 
 04: class done and practical not done
 
-## 05: Performance Part 2
+## <a id="performance-part-2">05: Performance Part 2</a>
 
 https://github.com/zero-to-mastery/start-here-guidelines
 
@@ -730,7 +730,7 @@ $ npm run deploy
 
 05: class done and practical not done
 
-## 06: Testing
+## <a id="testing">06: Testing</a>
 
 > Bugs cost a lot of money to the Companies
 
@@ -878,7 +878,7 @@ Lower-level API testing: https://www.npmjs.com/package/supertest
 
 06: class done and practical not done
 
-## 07: TypeScript
+## <a id="typeScript">07: TypeScript</a>
 
 Type of languages -
 <img src="./images/17-type-of-programming-language.png" />
@@ -962,7 +962,7 @@ https://github.com/aneagoie/robofriends-typescript
 
 07: class done and practical not done
 
-## 08: SPA vs Server Side Rendering
+## <a id="spa-vs-server-side-rendering">08: SPA vs Server Side Rendering</a>
 
 The first website: http://info.cern.ch/
 
@@ -1049,7 +1049,7 @@ Pages for search engine crawlers: https://prerender.io/
 
 08: class done and practical not done
 
-## 09: Security
+## <a id="security">09: Security</a>
 
 > Security is an always evolving field. You will never be 100% secure. No program ever is! However, we can build great resistance by following some guidelines.
 
@@ -1278,7 +1278,7 @@ https://www.owasp.org/index.php/Main_Page
 
 09: class done and practical not done
 
-## 10: Code Analysis
+## <a id="code-analysis"> 10: Code Analysis</a>
 
 https://github.com/aneagoie/smart-brain
 
@@ -1360,7 +1360,7 @@ update components/FaceRecognition.js
 
 10: class done and practical not done
 
-## 11: Docker
+## <a id="docker">11: Docker</a>
 (do not follow this chapter - this is old)
 
 Installing docker: https://docs.docker.com/install/linux/docker-ce/ubuntu/
@@ -1483,7 +1483,7 @@ https://stackoverflow.com/questions/41294305/docker-compose-difference-between-n
 
 11: class done and practical not done
 
-## 12: Redis
+## <a id="redis">12: Redis</a>
 
 <img src="./images/21-classification-of-nosql-databases.png">
 
@@ -1566,7 +1566,7 @@ redis commands:
 
 12: class done and practical not done
 
-## 13: Sessions + JWT
+## <a id="sessions-jwt">13: Sessions + JWT</a>
 
 Cookie based authentication and token based authentication is a complex topic with a lot of opinions. It's always good to learn both sides and understand the pros and cons. I will leave these resources for you to explore, but keep in mind that it is better to come back to these after you have completed this section so you have a better understanding of how everything works. 
 1. https://dzone.com/articles/cookies-vs-tokens-the-definitive-guide
@@ -1648,7 +1648,7 @@ https://github.com/aneagoie/smart-brain-boost-api-dockerized
 
 13: class done and practical not done
 
-## 14: AWS
+## <a id="aws">14: AWS</a>
 
 Top 3 web services in the market - 
 1. Amazon Web Services (AWS)
@@ -1771,7 +1771,7 @@ $ sls deploy
 
 14: class done and practical not done
 
-## 15: Performance Part 3
+## <a id="performance-part-3">15: Performance Part 3</a>
 
 ### CDNs: Cloudflare
 <img src="./images/24-cloudflare-cdn.png">
@@ -1887,7 +1887,7 @@ Typical Architectural Design:
 
 15: class done and practical not done
 
-## 16: CICD
+## <a id="ci-cd">16: CICD</a>
 
 > Continous Deployment(CD) is one step farther is Continous Delivery(CD) 
 <img src="./images/34-CICD.png">
@@ -1914,7 +1914,7 @@ https://github.com/aneagoie/robofriends-ci
 
 16: class done and practical not done
 
-## 17: Extra Bits
+## <a id="extra-bits">17: Extra Bits</a>
 
 > **Simplicity vs Complexity**: Always choose **simplicity** over complexity. Always accept question from others. Try to minimize the complexity of your code.  
 
