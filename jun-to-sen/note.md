@@ -43,7 +43,7 @@ In order to stay up to date with the industry and make sure that I am on the gam
 
 ## Jun-to-Sen
 
-<a id="introduction">## 01: Introduction</a>
+## <a id="introduction">01: Introduction</a>
 
 - https://aneagoie.github.io/keiko-corp
 - https://github.com/aneagoie/keiko-corp
