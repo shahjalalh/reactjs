@@ -31,15 +31,42 @@ In order to stay up to date with the industry and make sure that I am on the gam
 
 
 ## Web-Zero-to-Mastery
-10. Career Of A Web Developer
-14. Command Line
-15. Developer Environment
-16. Git + Github + Open Source Projects
-17. A Day In The Life Of A Developer
-21. Backend Basics
-22. APIs
-28. Production + Deployment
-29. Where To Go From Here
+
+01. Introduction
+02. How The Internet Works
+03. History Of The Web
+04. HTML 5
+05. Advanced HTML 5
+06. CSS
+07. Advanced CSS
+08. Bootstrap 4, Templates, And Building Your Startup Landing Page
+09. CSS Grid + CSS Layout
+10. [Career Of A Web Developer](#career-of-a-web-developer)
+11. Javascript
+12. DOM Manipulation
+13. Advanced Javascript
+14. [Command Line](#command-line)
+15. [Developer Environment](#developer-environment)
+16. [Git + Github + Open Source Projects](#git-github-open-source-projects)
+17. [A Day In The Life Of A Developer](#a-day-in-the-life-of-a-developer)
+18. NPM + NPM Scripts
+19. React.js + Redux
+20. HTTP/JSON/AJAX + Asynchronous Javascript
+21. [Backend Basics](#backend-basics)
+22. [APIs](#apis)
+23. FINAL PROJECT: SmartBrain Front-End
+24. Node.js + Express.js
+25. FINAL PROJECT: SmartBrain Back-End -- Server
+26. Databases
+27. FINAL PROJECT: SmartBrain Back-End -- Database
+28. [Production + Deployment](#production-deployment)
+29. [Where To Go From Here?](#where-to-go-from-here)
+30. Bonus: Part 2 + Extras
+31. Extra: For Windows Users
+
+-------------------
+-------------------
+-------------------
 
 ## Jun-to-Sen
 
@@ -1928,7 +1955,7 @@ https://github.com/aneagoie/robofriends-ci
 
 ## Web-Zero-to-Mastery
 
-## 10: Career Of A Web Developer
+## <a id="#career-of-a-web-developer">10: Career Of A Web Developer</a>
 
 > The best developers solve their own problem by themselves with the tools and docs they have.
  
@@ -1958,7 +1985,7 @@ https://github.com/aneagoie/robofriends-ci
 
 10: class done
 
-## 14: Command Line
+## <a id="#command-line">14: Command Line</a>
 
 ### Using the terminal
 
@@ -1987,7 +2014,7 @@ $ rm -r folder
 
 14: class done
 
-## 15: Developer Environment
+## <a id="#developer-environment">15: Developer Environment</a>
 
 ### Sublime Text 3
 Recommended resources to get your Sublime Text personalized:
@@ -2018,7 +2045,7 @@ My recommended packages to install (command + shift +p):
 
 15: class done and practical not done
 
-## 16: Git + Github + Open Source Projects
+## <a id="#git-github-open-source-projects">16: Git + Github + Open Source Projects</a>
 
 https://searchsecurity.techtarget.com/definition/sudo-superuser-do
 
@@ -2094,7 +2121,7 @@ One of the open source projects started by students is: https://zero-to-mastery.
 
 16: class done
 
-## 17: A Day In The Life Of A Developer
+## <a id="#a-day-in-the-life-of-a-developer">17: A Day In The Life Of A Developer</a>
 
 https://medium.com/zerotomastery/web-developer-monthly-july-2018-513e02f15fb6
 
@@ -2107,11 +2134,11 @@ In order to stay up to date with the industry and make sure that I am on top of 
 
 17: class done
 
-## 21: Backend Basics
+## <a id="#backend-basics">21: Backend Basics</a>
 
 21: class done
 
-## 22. APIs
+## <a id="#apis">22. APIs</a>
 
 The Star Wars API: https://swapi.co/
 
@@ -2127,14 +2154,14 @@ https://www.ibm.com/watson/services/speech-to-text/
 
 22: class done
 
-## 28: Production + Deployment
+## <a id="#production-deployment">28: Production + Deployment</a>
 
 Heroku Deploying with Git: https://devcenter.heroku.com/articles/git
 
 
 28: class not done and practical not done
 
-## 29: Where To Go From Here
+## <a id="#where-to-go-from-here">29: Where To Go From Here</a>
 
 These are the best resources I have found on interviewing and landing a job/career as a developer. I hope you find them useful:
 
